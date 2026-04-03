@@ -35,7 +35,10 @@ book:
         - chapters/sharing.qmd        
     - part: "FURTHER READING"
       chapters:
-        - chapters/todo2.qmd        
+        - chapters/todo2.qmd    
+
+execute:
+  freeze: auto
         
     
 
