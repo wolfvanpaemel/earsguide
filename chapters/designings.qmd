@@ -1,0 +1,25 @@
+# Designing your study {#sec-designingstudy}
+
+\^ Even if the OAs were transparent and kind enough to share their materials, don't just assume the best course of action is to use just this shared material. It might still make sense to do something different than the OAs and go beyond the exact same materials as used by the OAs.
+
+-   They might have done something weird or wrong. See @sec-undesired, @sec-ambiguous and @sec-checkingquality for examples.
+
+-   You currently don't have the means to do exactly the same (see @sec-impossible).
+
+<!-- -->
+
+-   And even if all the answers to the questions asking "was so-and-so done correctly?" are "yeah, sure", now is the time to ask, can so-and-so be done better? Are there measures available for the same construct that are more appropriate and have e.g. better psychometric qualities? TODO add example
+
+-   So, in light of the fact that people do stuff that is weird and wrong, and that science progresses, you should consider using alternative or improved materials compared to the OAs (constructive replication).
+
+-   (Of course, doing an extended study with e.g. an additional covariate is reason enough already why you can not just blindly redo the analyses from the OAs.)
+
+\^ You probably want to keep a document with a list of the **known differences** between your study and the original study (I promise you will forget about those if you don't keep track!), where "known" signals the fact that you knew about this in the design face, before your results came in. Also, keep in mind that whenever you were not sure what the OAs exactly did (see \@sec-impossible and Section \@sec-reproducibility), whatever you did is a potential known difference, and you should list it as such.
+
+\^ When designing your study, remember that sometimes the OAs were given "free" bonus data without them asking, so you could consider collecting that info. For example, if they collected data from students at American universities, they knew the country of residence and the occupation of all their participants without having to ask for it. You, on the other hand, might be using prolific, so your participants can be from anywhere over the world, so asking their country of residence and occupation might be interesting, despite the OAs not having done so, or at least not explicitly!
+
+\^ There is a sense in which doing a replication is just doing things the same (but by Section \@sec-areplication, I hope I got you thinkin' non-sense). Even if you are an "I want to do things exactly the same" hard core type, there is one thing where you will have to give in: there is no good reason to use the same sample size as the OA did. You might want a higher power or more precision than in the OS. **Determining your sample size** is an important step about which I don't have anything interesting to say. Luckily, HRRS has an interesting section about this (6.2), which I am not going to repeat, so I will just keep quiet for a while.
+
+\^ xxxx Also, if you focus on one specific result as your main target of replication, justify why you choose this xxx moet dat ook niet bij desging ergens xxx what is the main claim? needed for power analysis and for some metrics of replication success
+
+# 

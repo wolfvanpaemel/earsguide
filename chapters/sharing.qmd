@@ -1,0 +1,14 @@
+# Sharing {#sec-sharing}
+
+\^ Consider sharing your findings on the post publication platforms
+mentioned in Section \@sec-postpublication, especially if you don't seek
+to publish your work.
+
+\^ If you have been in touch with the OAs and they have been interested
+and/or helpful, it is polite to let them know the results, and
+potentially ask for their comments, especially if the replication
+failed. You might even wish to alert them if you haven't been in touch
+with them. You could, for example, send them a one-paragraph summary
+(did it replicate or not or is it complicated?) email with your results,
+thanking them again, and send your report as an attachment (or add a
+link to the osf project if you have uploaded your report there).

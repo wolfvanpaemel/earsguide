@@ -1,0 +1,6 @@
+---
+number-sections: false
+toc: false
+---
+
+While you won't easily find someone saying this in print, replication studies are less attractive to journal to novel studies. That means that, if your desire is to get published, to bar is often a bit higher for doing a replication study. This translates to, for example, tacit expectations about being high powered, being pre-registered, etc

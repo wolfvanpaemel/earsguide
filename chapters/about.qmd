@@ -1,0 +1,189 @@
+## about this guide {#sec-about-this-guide}
+
+This guide is based on a collection of notes, which grew out of doing replication research with master students as part of their master thesis, which I started doing erratically in 2013 and somewhat systematically since 2020. I tried to create something helpful for them and this guide is a part of that survival package.
+
+While the main topic is replication research, an important step when replicating a study is critically evaluating the study of interest. A good deal of these notes focuses on these aspects (Sections \@sec-evaluating to \@sec-reanalysing), and includes topics like conversions, recreations, and reproductions. As evaluating or appraising a study is of interest to any researcher, not just to a researcher wishing to replicate a study, these notes might be useful for you even if you don't want to replicate.[^1]  
+
+[^1]: These sections will be added somewhere soon 
+
+This guide grew out of my own hands-on experiences and conversations with my students, and it shows. It doesn't integrate the different findings and perspectives from all sorts of papers about replication and evaluation found in the literature. It doesn't even try to! It just represents how I advise my students to do replication research and how to evaluate a study. It doesn't represent (nor does it try to represent) a consensus of how the field thinks it should be done, or how it is done by others. That being said, I don't think I am saying much that could be considered controversial. Not only is nothing in these notes controversial, nothing is new or original either. Still, my students have found it valuable to have all things collected in one place, so you might find that too.
+
+I often didn't bother writing eloquent or long paragraphs. Again, the main goal was usefulness, not flex.
+
+This guide is incomplete by design, as it is not intended to be complete. It, for example, do not contain all possible fine grained distinctions between types of replications. My main or only criterion for inclusion was whether it is helpful to my students doing their replication study.[^2] Further, it is also just incomplete by time. It represents what I have collected up till today, not what I think should ideally be discussed. As long as my students continue to ask me questions, this guide will be expanded in the future. So this guide is very much a work in progress. Sometimes, I know what I want to add, but haven't found the energy or the time to do that. So you will come across a few things like "TODO: add an example".
+
+[^2]: Ok, I admit, I did not always honor the usefulness criterion in the footnotes.
+
+Also, things change quickly. Tools come and go, platforms rise and fall, techniques pop up, insights mature and priorities shift. I can not possibly keep up.
+
+So this guide is supposed to be a living document. This means that
+
+1\) It is a work in progress and incomplete.
+
+2\) It will be regularly updated, sometimes with large overhauls (in which case I will keep a legacy copy), sometimes by just adding or deleting a few sentences.
+
+3\) It is very much open to your comments and suggestions, when things are missing, unclear, or just plain stupid. Send me an email, or leave a comment in this google doc TODO update when Rmd and git.
+
+<!-- It's just a loosely organised collection of notes, and it does not adhere to academic style. For example, I have been deliberately loose on referencing. I will try to make up for that by extending the Further Reading part.-->
+
+Because I have a bad memory and I suspect my students do too, I ask them to write quite a few reports throughout the replication process. Most of these reports come with a template, which you may find here [[https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-\_SiyqXuZC7s/edit?tab=t.0]{.underline}](https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0), in case they would be useful to you. TODO update
+
+## who this guide for {#sec-who-this-guide-for}
+
+This guide heavily focuses on quantitative research, solely reflecting my own bias, interest and experience.
+
+It is written with an inexperienced audience in mind. It, for example, includes an elaborate section explaining where to look for info related to a paper. If you are a seasoned researcher but have never done a replication, this section is probably not that useful to you, but I found it was being appreciated by my inexperienced students.
+
+There is another sense in which this guide is written with an very experienced audience in mind, or at least an audience that is willing to find information elsewhere. These notes strictly focus on evaluation and replication research. As replication research is of course just a type of empirical research, a more complete description of how replication research works should, in principle, discuss how to design a study, how to collect empirical data, how to analyze the data, and so on. This guide does *not* do that, so if you are looking for that, this guide will not be (sufficient) for you. I only included stuff that is specific for doing replication research in particular, not for doing empirical research in general. Also, I assume familiarity with basic statistical concepts.
+
+However. An excellent source to learn about these general empirical and experimental methods is [[Experimentology]{.underline}](https://experimentology.io/) (pdf here [[https://experimentology.io/Experimentology.pdf]{.underline}](https://experimentology.io/Experimentology.pdf)). A true gem when it comes down to statistics is [[https://learningstatisticswithr.com/book/]{.underline}](https://learningstatisticswithr.com/book/) (pdf here [[https://learningstatisticswithr.com/lsr-0.6.pdf]{.underline}](https://learningstatisticswithr.com/lsr-0.6.pdf)). I will refer to it as LSR. Despite its name, this book comes in several versions beyond R, including JASP, all linked on [[https://learningstatisticswithr.com/]{.underline}](https://learningstatisticswithr.com/).
+
+## software {#sec-software}
+
+In the part about evaluating a study (Section \@sec-evaluating to \@sec-reanalysing), I sometimes provide R code. I don't give a lot of explanation there, because I assume you already know R, or will not bother learning R just for this goal. To make up for that, I will try to give user friendly alternatives on external websites when available. Further, I will point out if and how these analyses can be done using the open source, intuitive and free statistical software program JASP, which is freely available here [[https://jasp-stats.org/]{.underline}](https://jasp-stats.org/).
+
+## similar works {#sec-similar-works}
+
+To avoid having to replicate stuff that other people have written earlier and well, I will sometimes refer to or literally quote from similar sources. In particular, when needed I will refer to and quote from 
+
+-   the [[Handbook for Reproduction and Replication Studies]{.underline}](https://forrt.org/replication_handbook/) (pdf here [[https://forrt.org/replication_handbook/Handbook-for-Reproduction-and-Replication-Studies.pdf]{.underline}](https://forrt.org/replication_handbook/Handbook-for-Reproduction-and-Replication-Studies.pdf)), which focuses on replication and reproduction (which is a part of evaluation). I will refer to it as HRRS.
+
+-   the [[Guide for Accelerating Computational Reproducibility in the Social Sciences \| Guide for Accelerating Computational Reproducibility in the Social Sciences]{.underline}](https://bitss.github.io/ACRE/) (pdf here [[https://bitss.github.io/ACRE/ACRE_book.pdf]{.underline}](https://bitss.github.io/ACRE/ACRE_book.pdf)), which focuses on reproduction (which is a part of evalaution). I will refer to it as ACRE.
+
+-   [[forensicmetascience.com]{.underline}](http://forensicmetascience.com) (pdf here [[https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1]{.underline}](https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1)), which is the currently best reference I know about checking the numerical conformity of a study of Section \@sec-checkingconformity (which is one of the steps in the evaluation process). I will refer to it as AITFM.
+
+## citation {#sec-citation}
+
+Vanpaemel, W. (2026) Evaluating and replicating studies: A practical guide\*\*\*\* Retrieved from [[earsguide.io]{.underline}](http://earsguide.io). doi TODO
+
+## acknowledgements {#sec-acknowledgements}
+
+Most of what is included in this guide was written in response to questions that were asked by my, sometimes enthusiastic and at other times frustrated, students when doing a replication study, or have originated as remarks I thought of when I was reading their work. Without my students, I wouldn't have written any of this, so I have them to thank.
+
+<!--
+## table of contents {#sec-table-of-contents}
+
+> [about this guide 2](#about-this-guide)
+>
+> [who this guide for 3](#who-this-guide-for)
+>
+> [software 4](#software)
+>
+> [similar works 5](#similar-works)
+>
+> [citation 5](#citation)
+>
+> [acknowledgements 5](#acknowledgements)
+>
+> [table of contents 6](#table-of-contents)
+
+[**A replication? {#sec-areplication} 8**](#a-replication-areplication)
+
+[**The same? {#sec-thesame} 9**](#the-same-thesame)
+
+> [doing the same is impossible or infeasible {#sec-impossible} 9](#doing-the-same-is-impossible-or-infeasible-impossible)
+>
+> [doing the same is ambiguous {#sec-ambiguous} 11](#doing-the-same-is-ambiguous-ambiguous)
+>
+> [doing the same is not ideal or undesired {#sec-undesired} 15](#doing-the-same-is-not-ideal-or-undesired-undesired)
+>
+> [doing the same is not your current interest {#sec-nointerest} 17](#doing-the-same-is-not-your-current-interest-nointerest)
+>
+> [ok, i get it. can we wrap up, please? 19](#ok-i-get-it.-can-we-wrap-up-please)
+
+[**Are we replicating still? {#sec-still} 20**](#are-we-replicating-still-still)
+
+[Some criteria for selecting a replication study {#sec-somecriteria} 25](#some-criteria-for-selecting-a-replication-study-somecriteria)
+
+> [feasibility{#sec-feasibility} 26](#feasibilityfeasibility)
+>
+> [questionability{#sec-questionability} 27](#questionabilityquestionability)
+>
+> [impact{#sec-impact} 28](#impactimpact)
+>
+> [other practical considerations{#sec-other} 29](#other-practical-considerationsother)
+
+[Finding information about published research {#sec-findinginformation} 30](#finding-information-about-published-research-findinginformation)
+
+[Contacting the original authors {#sec-contacting} 33](#contacting-the-original-authors-contacting)
+
+[CRITICALLY EVALUATING THE ORIGINAL STUDY {#sec-evaluating} 36](#critically-evaluating-the-original-study-evaluating)
+
+[POST PUBLICATION AND OTHER DISCUSSIONS {#sec-postpublication} 37](#post-publication-and-other-discussions-postpublication)
+
+[**CHECKING THE REPORTING INTEGRITY OF THE ORIGINAL STUDY {#sec-checkingprereg} 39**](#checking-the-reporting-integrity-of-the-original-study-checkingprereg)
+
+[**CHECKING THE QUALITY OF THE ORIGINAL STUDY {#sec-checkingquality} 41**](#checking-the-quality-of-the-original-study-checkingquality)
+
+[VISUALISATION CHECKS {#sec-checkingvisuals} 46](#visualisation-checks-checkingvisuals)
+
+[CHECKING THE NUMERICAL CONFORMITY OF THE ORIGINAL STUDY (WITHOUT THE ORIGINAL RAW DATA) {#sec-checkingconformity} 47](#checking-the-numerical-conformitydata-integrity-xxx-of-the-original-study-without-the-original-raw-data-checkingconformity)
+
+> [common sense and logic{#sec-commonsense} 50](#common-sense-and-logiccommonsense)
+>
+> [internal conversion: general idea{#sec-internalgeneral} 52](#internal-conversion-general-ideainternalgeneral)
+>
+> [internal conversion: the equality edition (no p-values from summaries){#sec-internalequality} 53](#internal-conversion-the-equality-edition-no-p-values-from-summariesinternalequality)
+>
+> [internal conversion: the p-value from summary statistics edition{#sec-internalpvalue} 64](#internal-conversion-the-p-value-from-summary-statistics-editioninternalpvalue)
+>
+> [internal conversion: the inequality edition{#sec-internalinequality} 79](#internal-conversion-the-inequality-editioninternalinequality)
+>
+> [external conversion{#sec-external} 81](#external-conversionexternal)
+>
+> [recreation{#sec-recreation} 83](#recreationrecreation)
+>
+> [rounding beware{#sec-rounding} 91](#rounding-bewarerounding)
+>
+> [rules of thumb{#sec-rules} 103](#rules-of-thumbrules)
+
+[**REANALYSING THE ORIGINAL RAW DATA {#sec-reanalysing} 106**](#reanalysing-the-original-raw-data-reanalysing)
+
+> [reproducibility analysis{#sec-reproducibility} 106](#reproducibility-analysisreproducibility)
+>
+> [alternative analyses{#sec-alternative} 111](#alternative-analysesalternative)
+>
+> [data fabrication{#sec-fabrication} 112](#data-fabricationfabrication)
+
+[DESIGNING YOUR STUDY {#sec-designingstudy} 114](#designing-your-study-designingstudy)
+
+[DESIGNING YOUR ANALYSES {#sec-designinganalysis} 116](#designing-your-analyses-designinganalysis)
+
+[PREREGISTERING YOUR STUDY{#sec-prereg} 119](#preregistering-your-studyprereg)
+
+[**COLLECTING YOUR DATA{#sec-datcoll} 120**](#collecting-your-datadatcoll)
+
+[**INTERPRETING YOUR RESULT 121**](#interpreting-your-result)
+
+[WRITING UP YOUR EVALUATION AND REPLICATION STUDY{#sec-writing} 122](#writing-up-your-evaluation-and-replication-studywriting)
+
+> [GENERAL 122](#general)
+>
+> [INTRODUCTION 122](#introduction)
+>
+> [EVALUATION 123](#evaluation)
+>
+> [REPLICATION 125](#replication)
+
+[**PUBLISHING {#sec-publishing} 127**](#publishing-publishing)
+
+[**SHARING {#sec-sharing} 128**](#sharing-sharing)
+
+> [BOOKS ON REPLICATION, CONFORMITY AND REPRODUCTION 129](#books-on-replication-conformity-and-reproduction)
+>
+> [ON REPLICATION 129](#on-replication)
+>
+> [ON REPRODUCTION 130](#on-reproduction)
+>
+> [ON MULTIVERSE 130](#on-multiverse)
+>
+> [STUDIES USED IN THE EXAMPLES 130](#studies-used-in-the-examples)
+>
+> [STATISTICAL FALLACIES 132](#statistical-fallacies)
+>
+> [TOOLS AND CHECKLISTS FOR STUDY EVALUATION 132](#tools-and-checklists-for-study-evaluation)
+>
+> [TOOLS AND TECHNIQUES FOR CHECKING NUMERICAL CONFORMITY 132](#tools-and-techniques-for-checking-numerical-conformity)
+>
+> [OTHER 132](#other)
+-->

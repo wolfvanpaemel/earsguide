@@ -6,6 +6,36 @@ book:
   author: "wolf vanpaemel"
   chapters:
     - index.md
-    - chapters/my_content.md
-
+    - part: "PREFACE"
+      chapters:
+        - chapters/about.qmd
+    - part: "GETTING STARTED"
+      chapters:
+        - chapters/areplication.qmd        
+        - chapters/thesame.qmd
+        - chapters/arewe.qmd
+        - chapters/somecriteria.qmd
+        - chapters/findinginformation.qmd
+        - chapters/contacting.qmd  
+    - part: "EVALUATING"
+      chapters:
+        - chapters/todo.qmd        
+    - part: "REPLICATING"
+      chapters:
+        - chapters/repintro.qmd        
+        - chapters/designings.qmd        
+        - chapters/designinga.qmd
+        - chapters/prereg.qmd
+        - chapters/collecting.qmd
+        - chapters/interpreting.qmd
+    - part: "WRITNG UP AND WRAPPING UP"
+      chapters:
+        - chapters/writing.qmd        
+        - chapters/publishing.qmd
+        - chapters/sharing.qmd        
+    - part: "FURTHER READING"
+      chapters:
+        - chapters/todo2.qmd        
+        
+    
 

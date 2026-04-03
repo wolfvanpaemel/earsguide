@@ -1,0 +1,31 @@
+# Publishing {#sec-publishing}
+
+\^ Here are some potential outlet options for your paper about your
+replication study: TODO: add links
+
+- the journal where the OS was published (but check the info on their
+  website to see if they accept replication studies)
+
+- [[replicationresearch.org]{.underline}](http://replicationresearch.org)
+
+- plos one
+
+- scientific reports
+
+- meta-psychology
+
+- collabra
+
+- peer j
+
+- [[https://www.jsr.org/]{.underline}](https://www.jsr.org/)
+
+- see also
+  [[https://rr.peercommunityin.org/about/pci_rr_friendly_journals]{.underline}](https://rr.peercommunityin.org/about/pci_rr_friendly_journals)
+
+- see also Table 8.1 of HRRS
+
+- etc
+
+#  
+

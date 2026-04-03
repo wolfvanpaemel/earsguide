@@ -1,0 +1,9 @@
+# Preregistering your study {#sec-prereg}
+
+\^ Again, I don't have much to say here (yet). Pre-registration is hard, but there is not much that is specific to pre registering a replication that I can think of.
+
+\^ The only real difference from a preregistration of a non-replication study is that it is advised to include a section with known differences with the OS, including a justification of why these differences are reasonable or needed, and a discussion on whether you think these will impact the result compared to the OS.
+
+\^ Ideally, the pre-analysis plan includes a definition of what constitutes replication success vs failure, but that's a tough nut (a bit more in \@sec-designinganalysis) for some ideas.
+
+\^ Optionally, you can contact the OAs and ask them to read through the preregistration. This is especially when there were a lot of changes to their study.

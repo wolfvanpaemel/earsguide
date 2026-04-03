@@ -1,0 +1,3 @@
+# Collecting your data {#sec-datcoll}
+
+There is nothing I can think of really where collecting data for a replication study is any different from collecting data for a non-replication study.

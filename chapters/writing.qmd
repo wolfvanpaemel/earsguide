@@ -1,0 +1,89 @@
+# Writing up your evaluation and replication study {#sec-writing}
+
+\^ To some extent, a replication study is just an empirical study like any other. General strategies, good practices, tips and tools that are useful for writing up an empirical study are still applicable to a replication study. A few aspects are special, though, and I highlight the ones I could think of below.
+
+## General
+
+\^ Here's a piece of solid advice I found in HRRS. They ask you to be mindful of your language when writing up your replication study. In particular, they "recommend a descriptive and impersonal language. When criticizing bad documentation, no access to data, or brevity in methods replication authors should keep in mind the historical context of the original publication. For example, sharing data was much more diﬀicult in the 1990s and not required in many areas until recently."
+
+\^ In evaluation and replication studies (where you to a large extent re-write what the others have done, for example in the intro and methods section), the risk of plagiarism is very high. Make sure you say everything in your own words as much as possible!
+
+xxx do better structure xxx like aline wicherts xxx
+
+\^ If the OAs were somehow involved in your evaluation or replication study, be sure to describe that in the relevant section of your paper.
+
+## Introduction
+
+\^ You will need to discuss the OS in considerable detail.
+
+\^ When discussing the OS, give a lot of detail about their participants, as their background might be an important factor to understand any differences in the results of your study and the OS (if there are any). This could go on in the introduction, or possibly in METHODS/DISCUSSION).
+
+\^ Also, make very clear what, besides the paper itself, you have found (such as data and materials) and where and whether you have used it (and if not why not).
+
+\^ This should go without saying but still: make very clear what exactly you are evaluating and replicating. Just sharing the title of the paper, the authors and the journal will often not be enough, as a paper typically contains many studies, studies often contain many research questions or hypotheses and so on. So you need to be very specific about which paper, studies, results/hypotheses.
+
+\^ Explain or justify why you chose the OS as your target study (at least if it is more interesting to your readers than just your own private interests) and the claims you focus on. Include your reasoning of why your OS is worthy or in need of evaluation and/or replication. Also, if you focus on one specific result as your main target of replication, justify why you choose this xxx moet dat ook niet bij desging ergens xxx
+
+\^ When there are many previous replication attempts, consider providing a meta-analytic estimate for the effect.
+
+\^ you might or might not want to include a specific section talking about (the need for) evaluation and replication studies in general (what it is; the importance; etc). Further, you might want to offer general reflections on the value of and pitfalls associated with doing replications in general (in introduction or possibly in the DISCUSSION).
+
+## Evaluation
+
+\^ Discuss the results of the sleuthing you've been doing earlier:
+
+-   A summary of the post publication discussion you have found (see \@sec-postpublication), giving of course proper credit, restricting yourself to the parts of this discussion that don't come up in the next bullets.
+
+-   The results of your quality check (see \@sec-checkingquality).
+
+-   Discuss the reporting integrity (see \@sec-checkingprereg). For example, when the original study had been pre-registered, include an evaluation of the extent to which they adhered to their preregistration protocol.
+
+-   The results of your visual checks (see \@sec-checkingvisuals).
+
+-   The results of your checks on numerical conformity (see \@sec-checkingconformity).
+
+-   The results of your reproducibility check of the original study (see \@sec-reproducibility). Make sure to include many details when doing that. Here are a few things to keep in mind:
+
+    -   The nature of all the materials you used.
+
+        -   Did you have access to the full raw data or just to the processed data? Indicate whether you started from the raw data or from the processed data or from both.
+
+        -   Did you have access to the code or data analytical protocol used by the OAs? Make clear whether you wrote your own code (for processing, for analysis or for both), just ran the code (for processing, for analysis or gor both) provided by the OAs, or started from the code (for processing, for analysis, of for both) provided by the OAs and adapted it.
+
+        -   If there was no code, or partial code only, you had to go by whatever the OAs described. Where did you find these descriptions? Just the paper or also e.g., the pre-registration plan?
+
+    -   The exact location/source of all the materials (data and code) you used, such as from a public platform like osf, shared by the authors on request; extracted from tables; etc
+
+    -   whether you got input from the OAs and if so what kind of input.
+
+    -   which software 'n' version you and the OAs used.
+
+    -   for each numerical result that you managed to reproduce: whether you needed to do something different, or more detailed, than what was reported by the OAs (or found in their shared code) to reproduce the results.
+
+        -   Which details were omitted in the report and did you need to fill in to be able to reproduce the results, based on logic, common sense, or inspecting the code shared by the OAs?
+
+            -   For example, did the OAs just report they used a t-test, and did you have to find out by trial-and-error or by inspecting the shared code they used a Welch t-test?
+
+        -   Which deviations to what is reported by the OAs (or found in their shared code) were needed to reproduce the results? Why? What were the results without these changes?
+
+            -   For example, did the OAs just report they used a Student t-test, but can you only reproduce their results with a Welch t-test? Does their conclusion change when you do use a Student t-test?
+
+    -   for each numerical result that you could not reproduce: what is the impact on the conclusions? Does it change any of the conclusions?
+
+-   If any of these checks are only done for a selection of numerical results, justify your selection xxx
+
+-   The results of your robustness/improved/multiverse analysis of the OS's raw data (see \@sec-alternative), again reporting many of the aspects listed above (source, software, involvement of the OAs, etc).
+
+-   If you did not do any of these checks, it might be good to briefly explain why (e.g., because of the fact that no data were available)
+
+## Replication
+
+\^ Include a subsection called *Differences from original study* or something along these terms, for example in the Methods section. In this subsection, discuss any inevitable differences between the original and replication study, especially those that might undermine/could have undermined the probability of a successful replication. xxx rewrite xxx
+
+-   try to make a distinction between differences that are known before data collection and analysis (i.e., by design) or unknown (e.g., differences in gender distribution) differences with the OS.
+
+-   if these differences are the results of a decision on your part (some things are beyond your decision capacities, like time and your sample but others, like design, materials, and analyses are not), discuss why (i.e., provide a justification) you decided to change stuff.
+
+-   if possible, discuss the expected impact these differences could have on the replication results.
+
+\^ When writing the results, it might or might not be a good idea to present your results (both descriptive and inferential) next to the OS's results directly, to facilitate comparison. You could consider adding a table comparing the results of the OS and the results of your replication study.

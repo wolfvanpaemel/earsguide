@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>2&nbsp; about this guide – Evaluating and replicating studies: A practical guide</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../chapters/areplication.html" rel="next">
+<link href="../index.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d9ea66fcd6c317012447f26e9c021348.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/about.html">PREFACE</a></li><li class="breadcrumb-item"><a href="../chapters/about.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">about this guide</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Evaluating and replicating studies: A practical guide</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">PREFACE</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/about.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">about this guide</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">GETTING STARTED</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/areplication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">A replication?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/thesame.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">The same?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/arewe.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Are we replicating still?</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/somecriteria.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Some criteria for selecting a replication study</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/findinginformation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Finding information about published research</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/contacting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Contacting the original authors</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">EVALUATING</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/todo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">REPLICATING</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/repintro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">repintro.html</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/designings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Designing your study</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/designinga.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Desiging your analysis</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/prereg.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Preregistering your study</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/collecting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Collecting your data</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/interpreting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Interpreting your result</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">WRITNG UP AND WRAPPING UP</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Writing up your evaluation and replication study</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/publishing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Publishing</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/sharing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Sharing</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">FURTHER READING</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/todo2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#sec-who-this-guide-for" id="toc-sec-who-this-guide-for" class="nav-link active" data-scroll-target="#sec-who-this-guide-for"><span class="header-section-number">2.1</span> who this guide for</a></li>
+  <li><a href="#sec-software" id="toc-sec-software" class="nav-link" data-scroll-target="#sec-software"><span class="header-section-number">2.2</span> software</a></li>
+  <li><a href="#sec-similar-works" id="toc-sec-similar-works" class="nav-link" data-scroll-target="#sec-similar-works"><span class="header-section-number">2.3</span> similar works</a></li>
+  <li><a href="#sec-citation" id="toc-sec-citation" class="nav-link" data-scroll-target="#sec-citation"><span class="header-section-number">2.4</span> citation</a></li>
+  <li><a href="#sec-acknowledgements" id="toc-sec-acknowledgements" class="nav-link" data-scroll-target="#sec-acknowledgements"><span class="header-section-number">2.5</span> acknowledgements</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/about.html">PREFACE</a></li><li class="breadcrumb-item"><a href="../chapters/about.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">about this guide</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-about-this-guide" class="quarto-section-identifier"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">about this guide</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This guide is based on a collection of notes, which grew out of doing replication research with master students as part of their master thesis, which I started doing erratically in 2013 and somewhat systematically since 2020. I tried to create something helpful for them and this guide is a part of that survival package.</p>
+<p>While the main topic is replication research, an important step when replicating a study is critically evaluating the study of interest. A good deal of these notes focuses on these aspects (Sections @sec-evaluating to @sec-reanalysing), and includes topics like conversions, recreations, and reproductions. As evaluating or appraising a study is of interest to any researcher, not just to a researcher wishing to replicate a study, these notes might be useful for you even if you don’t want to replicate.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>This guide grew out of my own hands-on experiences and conversations with my students, and it shows. It doesn’t integrate the different findings and perspectives from all sorts of papers about replication and evaluation found in the literature. It doesn’t even try to! It just represents how I advise my students to do replication research and how to evaluate a study. It doesn’t represent (nor does it try to represent) a consensus of how the field thinks it should be done, or how it is done by others. That being said, I don’t think I am saying much that could be considered controversial. Not only is nothing in these notes controversial, nothing is new or original either. Still, my students have found it valuable to have all things collected in one place, so you might find that too.</p>
+<p>I often didn’t bother writing eloquent or long paragraphs. Again, the main goal was usefulness, not flex.</p>
+<p>This guide is incomplete by design, as it is not intended to be complete. It, for example, do not contain all possible fine grained distinctions between types of replications. My main or only criterion for inclusion was whether it is helpful to my students doing their replication study.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Further, it is also just incomplete by time. It represents what I have collected up till today, not what I think should ideally be discussed. As long as my students continue to ask me questions, this guide will be expanded in the future. So this guide is very much a work in progress. Sometimes, I know what I want to add, but haven’t found the energy or the time to do that. So you will come across a few things like “TODO: add an example”.</p>
+<p>Also, things change quickly. Tools come and go, platforms rise and fall, techniques pop up, insights mature and priorities shift. I can not possibly keep up.</p>
+<p>So this guide is supposed to be a living document. This means that</p>
+<p>1) It is a work in progress and incomplete.</p>
+<p>2) It will be regularly updated, sometimes with large overhauls (in which case I will keep a legacy copy), sometimes by just adding or deleting a few sentences.</p>
+<p>3) It is very much open to your comments and suggestions, when things are missing, unclear, or just plain stupid. Send me an email, or leave a comment in this google doc TODO update when Rmd and git.</p>
+<!-- It's just a loosely organised collection of notes, and it does not adhere to academic style. For example, I have been deliberately loose on referencing. I will try to make up for that by extending the Further Reading part.-->
+<p>Because I have a bad memory and I suspect my students do too, I ask them to write quite a few reports throughout the replication process. Most of these reports come with a template, which you may find here <a href="https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0"><u>https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0</u></a>, in case they would be useful to you. TODO update</p>
+<section id="sec-who-this-guide-for" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sec-who-this-guide-for"><span class="header-section-number">2.1</span> who this guide for</h2>
+<p>This guide heavily focuses on quantitative research, solely reflecting my own bias, interest and experience.</p>
+<p>It is written with an inexperienced audience in mind. It, for example, includes an elaborate section explaining where to look for info related to a paper. If you are a seasoned researcher but have never done a replication, this section is probably not that useful to you, but I found it was being appreciated by my inexperienced students.</p>
+<p>There is another sense in which this guide is written with an very experienced audience in mind, or at least an audience that is willing to find information elsewhere. These notes strictly focus on evaluation and replication research. As replication research is of course just a type of empirical research, a more complete description of how replication research works should, in principle, discuss how to design a study, how to collect empirical data, how to analyze the data, and so on. This guide does <em>not</em> do that, so if you are looking for that, this guide will not be (sufficient) for you. I only included stuff that is specific for doing replication research in particular, not for doing empirical research in general. Also, I assume familiarity with basic statistical concepts.</p>
+<p>However. An excellent source to learn about these general empirical and experimental methods is <a href="https://experimentology.io/"><u>Experimentology</u></a> (pdf here <a href="https://experimentology.io/Experimentology.pdf"><u>https://experimentology.io/Experimentology.pdf</u></a>). A true gem when it comes down to statistics is <a href="https://learningstatisticswithr.com/book/"><u>https://learningstatisticswithr.com/book/</u></a> (pdf here <a href="https://learningstatisticswithr.com/lsr-0.6.pdf"><u>https://learningstatisticswithr.com/lsr-0.6.pdf</u></a>). I will refer to it as LSR. Despite its name, this book comes in several versions beyond R, including JASP, all linked on <a href="https://learningstatisticswithr.com/"><u>https://learningstatisticswithr.com/</u></a>.</p>
+</section>
+<section id="sec-software" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="sec-software"><span class="header-section-number">2.2</span> software</h2>
+<p>In the part about evaluating a study (Section @sec-evaluating to @sec-reanalysing), I sometimes provide R code. I don’t give a lot of explanation there, because I assume you already know R, or will not bother learning R just for this goal. To make up for that, I will try to give user friendly alternatives on external websites when available. Further, I will point out if and how these analyses can be done using the open source, intuitive and free statistical software program JASP, which is freely available here <a href="https://jasp-stats.org/"><u>https://jasp-stats.org/</u></a>.</p>
+</section>
+<section id="sec-similar-works" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sec-similar-works"><span class="header-section-number">2.3</span> similar works</h2>
+<p>To avoid having to replicate stuff that other people have written earlier and well, I will sometimes refer to or literally quote from similar sources. In particular, when needed I will refer to and quote from</p>
+<ul>
+<li><p>the <a href="https://forrt.org/replication_handbook/"><u>Handbook for Reproduction and Replication Studies</u></a> (pdf here <a href="https://forrt.org/replication_handbook/Handbook-for-Reproduction-and-Replication-Studies.pdf"><u>https://forrt.org/replication_handbook/Handbook-for-Reproduction-and-Replication-Studies.pdf</u></a>), which focuses on replication and reproduction (which is a part of evaluation). I will refer to it as HRRS.</p></li>
+<li><p>the <a href="https://bitss.github.io/ACRE/"><u>Guide for Accelerating Computational Reproducibility in the Social Sciences | Guide for Accelerating Computational Reproducibility in the Social Sciences</u></a> (pdf here <a href="https://bitss.github.io/ACRE/ACRE_book.pdf"><u>https://bitss.github.io/ACRE/ACRE_book.pdf</u></a>), which focuses on reproduction (which is a part of evalaution). I will refer to it as ACRE.</p></li>
+<li><p><a href="http://forensicmetascience.com"><u>forensicmetascience.com</u></a> (pdf here <a href="https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1"><u>https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1</u></a>), which is the currently best reference I know about checking the numerical conformity of a study of Section @sec-checkingconformity (which is one of the steps in the evaluation process). I will refer to it as AITFM.</p></li>
+</ul>
+</section>
+<section id="sec-citation" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="sec-citation"><span class="header-section-number">2.4</span> citation</h2>
+<p>Vanpaemel, W. (2026) Evaluating and replicating studies: A practical guide**** Retrieved from <a href="http://earsguide.io"><u>earsguide.io</u></a>. doi TODO</p>
+</section>
+<section id="sec-acknowledgements" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="sec-acknowledgements"><span class="header-section-number">2.5</span> acknowledgements</h2>
+<p>Most of what is included in this guide was written in response to questions that were asked by my, sometimes enthusiastic and at other times frustrated, students when doing a replication study, or have originated as remarks I thought of when I was reading their work. Without my students, I wouldn’t have written any of this, so I have them to thank.</p>
+<!--
+## table of contents {#sec-table-of-contents}
+
+> [about this guide 2](#about-this-guide)
+>
+> [who this guide for 3](#who-this-guide-for)
+>
+> [software 4](#software)
+>
+> [similar works 5](#similar-works)
+>
+> [citation 5](#citation)
+>
+> [acknowledgements 5](#acknowledgements)
+>
+> [table of contents 6](#table-of-contents)
+
+[**A replication? {#sec-areplication} 8**](#a-replication-areplication)
+
+[**The same? {#sec-thesame} 9**](#the-same-thesame)
+
+> [doing the same is impossible or infeasible {#sec-impossible} 9](#doing-the-same-is-impossible-or-infeasible-impossible)
+>
+> [doing the same is ambiguous {#sec-ambiguous} 11](#doing-the-same-is-ambiguous-ambiguous)
+>
+> [doing the same is not ideal or undesired {#sec-undesired} 15](#doing-the-same-is-not-ideal-or-undesired-undesired)
+>
+> [doing the same is not your current interest {#sec-nointerest} 17](#doing-the-same-is-not-your-current-interest-nointerest)
+>
+> [ok, i get it. can we wrap up, please? 19](#ok-i-get-it.-can-we-wrap-up-please)
+
+[**Are we replicating still? {#sec-still} 20**](#are-we-replicating-still-still)
+
+[Some criteria for selecting a replication study {#sec-somecriteria} 25](#some-criteria-for-selecting-a-replication-study-somecriteria)
+
+> [feasibility{#sec-feasibility} 26](#feasibilityfeasibility)
+>
+> [questionability{#sec-questionability} 27](#questionabilityquestionability)
+>
+> [impact{#sec-impact} 28](#impactimpact)
+>
+> [other practical considerations{#sec-other} 29](#other-practical-considerationsother)
+
+[Finding information about published research {#sec-findinginformation} 30](#finding-information-about-published-research-findinginformation)
+
+[Contacting the original authors {#sec-contacting} 33](#contacting-the-original-authors-contacting)
+
+[CRITICALLY EVALUATING THE ORIGINAL STUDY {#sec-evaluating} 36](#critically-evaluating-the-original-study-evaluating)
+
+[POST PUBLICATION AND OTHER DISCUSSIONS {#sec-postpublication} 37](#post-publication-and-other-discussions-postpublication)
+
+[**CHECKING THE REPORTING INTEGRITY OF THE ORIGINAL STUDY {#sec-checkingprereg} 39**](#checking-the-reporting-integrity-of-the-original-study-checkingprereg)
+
+[**CHECKING THE QUALITY OF THE ORIGINAL STUDY {#sec-checkingquality} 41**](#checking-the-quality-of-the-original-study-checkingquality)
+
+[VISUALISATION CHECKS {#sec-checkingvisuals} 46](#visualisation-checks-checkingvisuals)
+
+[CHECKING THE NUMERICAL CONFORMITY OF THE ORIGINAL STUDY (WITHOUT THE ORIGINAL RAW DATA) {#sec-checkingconformity} 47](#checking-the-numerical-conformitydata-integrity-xxx-of-the-original-study-without-the-original-raw-data-checkingconformity)
+
+> [common sense and logic{#sec-commonsense} 50](#common-sense-and-logiccommonsense)
+>
+> [internal conversion: general idea{#sec-internalgeneral} 52](#internal-conversion-general-ideainternalgeneral)
+>
+> [internal conversion: the equality edition (no p-values from summaries){#sec-internalequality} 53](#internal-conversion-the-equality-edition-no-p-values-from-summariesinternalequality)
+>
+> [internal conversion: the p-value from summary statistics edition{#sec-internalpvalue} 64](#internal-conversion-the-p-value-from-summary-statistics-editioninternalpvalue)
+>
+> [internal conversion: the inequality edition{#sec-internalinequality} 79](#internal-conversion-the-inequality-editioninternalinequality)
+>
+> [external conversion{#sec-external} 81](#external-conversionexternal)
+>
+> [recreation{#sec-recreation} 83](#recreationrecreation)
+>
+> [rounding beware{#sec-rounding} 91](#rounding-bewarerounding)
+>
+> [rules of thumb{#sec-rules} 103](#rules-of-thumbrules)
+
+[**REANALYSING THE ORIGINAL RAW DATA {#sec-reanalysing} 106**](#reanalysing-the-original-raw-data-reanalysing)
+
+> [reproducibility analysis{#sec-reproducibility} 106](#reproducibility-analysisreproducibility)
+>
+> [alternative analyses{#sec-alternative} 111](#alternative-analysesalternative)
+>
+> [data fabrication{#sec-fabrication} 112](#data-fabricationfabrication)
+
+[DESIGNING YOUR STUDY {#sec-designingstudy} 114](#designing-your-study-designingstudy)
+
+[DESIGNING YOUR ANALYSES {#sec-designinganalysis} 116](#designing-your-analyses-designinganalysis)
+
+[PREREGISTERING YOUR STUDY{#sec-prereg} 119](#preregistering-your-studyprereg)
+
+[**COLLECTING YOUR DATA{#sec-datcoll} 120**](#collecting-your-datadatcoll)
+
+[**INTERPRETING YOUR RESULT 121**](#interpreting-your-result)
+
+[WRITING UP YOUR EVALUATION AND REPLICATION STUDY{#sec-writing} 122](#writing-up-your-evaluation-and-replication-studywriting)
+
+> [GENERAL 122](#general)
+>
+> [INTRODUCTION 122](#introduction)
+>
+> [EVALUATION 123](#evaluation)
+>
+> [REPLICATION 125](#replication)
+
+[**PUBLISHING {#sec-publishing} 127**](#publishing-publishing)
+
+[**SHARING {#sec-sharing} 128**](#sharing-sharing)
+
+> [BOOKS ON REPLICATION, CONFORMITY AND REPRODUCTION 129](#books-on-replication-conformity-and-reproduction)
+>
+> [ON REPLICATION 129](#on-replication)
+>
+> [ON REPRODUCTION 130](#on-reproduction)
+>
+> [ON MULTIVERSE 130](#on-multiverse)
+>
+> [STUDIES USED IN THE EXAMPLES 130](#studies-used-in-the-examples)
+>
+> [STATISTICAL FALLACIES 132](#statistical-fallacies)
+>
+> [TOOLS AND CHECKLISTS FOR STUDY EVALUATION 132](#tools-and-checklists-for-study-evaluation)
+>
+> [TOOLS AND TECHNIQUES FOR CHECKING NUMERICAL CONFORMITY 132](#tools-and-techniques-for-checking-numerical-conformity)
+>
+> [OTHER 132](#other)
+-->
+
+
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>These sections will be added somewhere soon<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Ok, I admit, I did not always honor the usefulness criterion in the footnotes.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../index.html" class="pagination-link" aria-label="index.html">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index.html</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../chapters/areplication.html" class="pagination-link" aria-label="A replication?">
+        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">A replication?</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
