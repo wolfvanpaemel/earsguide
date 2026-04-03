@@ -1,0 +1,11 @@
+project:
+  type: book
+
+book:
+  title: "Evaluating and replicating studies: A practical guide"
+  author: "wolf vanpaemel"
+  chapters:
+    - index.md
+    - chapters/my_content.md
+
+
