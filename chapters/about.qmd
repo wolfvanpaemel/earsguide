@@ -1,4 +1,4 @@
-## about this guide {#sec-about-this-guide}
+## About this guide {#sec-about-this-guide}
 
 This guide is based on a collection of notes, which grew out of doing replication research with master students as part of their master thesis, which I started doing erratically in 2013 and somewhat systematically since 2020. I tried to create something helpful for them and this guide is a part of that survival package.
 

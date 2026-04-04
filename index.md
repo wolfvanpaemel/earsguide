@@ -3,6 +3,9 @@ number-sections: false
 toc: false
 ---
 
+# Preface {.unnumbered .index-title}
+
+
 ::: {.content-visible when-format="html"}
 ::: {.quarto-title-citeas .csl-entry}
 _Evaluating and replicating studies: A practical guide._ Wolf Vanpaemel. 2026

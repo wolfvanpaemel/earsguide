@@ -1,0 +1,7 @@
+#quarto-sidebar .sidebar-item-container:has(a[href$="index.html"]) {
+  display: none;
+}
+
+h1.index-title {
+  display: none;
+}
