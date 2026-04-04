@@ -6,7 +6,6 @@ book:
   author: "wolf vanpaemel"
   homepage: index.md
   chapters:
-    - index.md
     - part: "PREFACE"
       chapters:
         - chapters/about.qmd
