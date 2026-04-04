@@ -54,7 +54,7 @@ To avoid having to replicate stuff that other people have written earlier and we
 
 ## citation {#sec-citation}
 
-Vanpaemel, W. (2026) Evaluating and replicating studies: A practical guide\*\*\*\* Retrieved from [[earsguide.io]{.underline}](http://earsguide.io). doi TODO
+Vanpaemel, W. (2026) Evaluating and replicating studies: A practical guide. Retrieved from [[earsguide.io]{.underline}](http://earsguide.io). TODO
 
 ## acknowledgements {#sec-acknowledgements}
 
