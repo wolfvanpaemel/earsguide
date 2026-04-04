@@ -1,9 +1,9 @@
 # Contacting the original authors {#sec-contacting}
 
-\^ Sometimes, it will prove necessary or helpful to contact the authors
+Sometimes, it will prove necessary or helpful to contact the authors
 of the original study. Here's the why, what, who, when and how.
 
-\^ Why? There are several reasons.
+**Why?** There are several reasons.
 
 - You might need access to their materials (which they might or might
   not want to share with you), their data (which they might or might not
@@ -24,7 +24,7 @@ of the original study. Here's the why, what, who, when and how.
 - Or you just want to feel less alone and want to talk to somebody who
   actually cares about the topic you are studying!
 
-\^ What? It is extremely impolite to ask the OAs (or anybody else, for
+**What?** It is extremely impolite to ask the OAs (or anybody else, for
 that matter) to do your work for you. Be respectful of their time and
 only ask their input for stuff you can not do yourself and their input
 is strictly needed.
@@ -32,54 +32,51 @@ is strictly needed.
 - Here are some examples of unreasonable questions because you typically
   should be able to answer these yourself without asking their input
 
-<!-- -->
-
-- Where can I find the survey you used? (when they are commonly used and
+  + Where can I find the survey you used? (when they are commonly used and
   publicly available surveys)
 
-- Which analyses did you do? (when they are described in full detail in
+  + Which analyses did you do? (when they are described in full detail in
   the paper)
 
-- Can you send me your data? (when they clearly say in the paper where
+  + Can you send me your data? (when they clearly say in the paper where
   their data are publicly available)
 
-> \- Here are some examples of reasonable questions, assuming that you
-> did your very best to find the answers yourself by carefully sifting
-> through the paper, the supplementary materials, the shared code, the
-> osf project page etc, and did not find the answer
+- Here are some examples of reasonable questions, assuming that you
+did your very best to find the answers yourself by carefully sifting
+through the paper, the supplementary materials, the shared code, the
+osf project page etc, and did not find the answer
 
-- Which effect size did you use in your power calculations?
+  + Which effect size did you use in your power calculations?
 
-- I found a version of the survey that seems better than the one you
+  + I found a version of the survey that seems better than the one you
   used, for these and these reasons (see attached). It was already
   available when you did your study. You don't mention it in your study.
   Did you consider using this version, and do you remember the reasons
   you decided against it?
 
-- You mention that you collected data from 187 participants, but the
+  + You mention that you collected data from 187 participants, but the
   reported degrees of freedom seem consistent with 164 participants.
   Does that mean you have excluded participants? If so, do you remember
   on which criteria these exclusions were based?
 
-- etc
+  + etc
 
-\^ Who? The best person to contact is the corresponding author. If the
+**Who?** The best person to contact is the corresponding author. If the
 corresponding author does not seem to be very good at corresponding, the
 next step is to contact the first or the last author.
 
-\^ When? As the questions you want to ask the OAs will probably show up
+**When?** As the questions you want to ask the OAs will probably show up
 gradually, and it is impolite to just send an email any time something
 pops up, it is probably a good idea to collect all the questions you
 have and send them all in one (or a few) giant batch(es).
 
-\^ How? Here are some examples for initial contact with the OAs. Of
+**How?** [[Here]{.underline}](https://docs.google.com/document/d/11in0iAUqy3_RpGn2tndMpTCBD2oD0ZQOHYAHf1UFmQI/edit?usp=sharing)
+ are some examples for initial contact with the OAs. Of
 course, you should turn it into your own! But some phrases might apply
-and could be literally copied:
-[[https://docs.google.com/document/d/11in0iAUqy3_RpGn2tndMpTCBD2oD0ZQOHYAHf1UFmQI/edit?usp=sharing]{.underline}](https://docs.google.com/document/d/11in0iAUqy3_RpGn2tndMpTCBD2oD0ZQOHYAHf1UFmQI/edit?usp=sharing)
+and could be literally copied.
 
-\^ How? ACRE has a full chapter on guidance for constructive
-communication:
-[[https://bitss.github.io/ACRE/comunications.html]{.underline}](https://bitss.github.io/ACRE/comunications.html)
+**How?** ACRE has a [[full chapter]{.underline}](https://bitss.github.io/ACRE/comunications.html)
+ on guidance for constructive communication.
 
-\^ More? An overview of relevant literature on the effect of the
-involvement of OAs can be found in Section 6.4.1 of HRRS
+**More?** An overview of relevant literature on the effect of the
+involvement of OAs can be found in Section 6.4.1 of HRRS.

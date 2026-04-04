@@ -1,9 +1,9 @@
 # Finding information about published research {#sec-findinginformation}
 
-\^ A large part of doing a replication study involves finding resources
+A large part of doing a replication study involves finding resources
 about the study you decided to replicate.
 
-\^ The first thing you need to find if you want to replicate a study is
+The first thing you need to find if you want to replicate a study is
 of course the paper describing the research process and results. Your
 first go-to for finding a paper will be google, google scholar, and your
 university (online) library. If you can't find the pdf of a paper in the
@@ -11,7 +11,7 @@ online library, and if you want to avoid illegal sites, take extra care
 to avoid sci-hub, because you will find a lot of illegal papers there
 and who would want that?
 
-\^ Now that you have the paper, you would hope that you now have access
+Now that you have the paper, you would hope that you now have access
 to all the information about the OS, such as info about the experimental
 procedure, the exact research materials (e.g., stimuli, questionnaires)
 used, the data processing steps, etc. I am sorry to have to crush your
@@ -22,7 +22,7 @@ you need is even reported (and you should consider yourself lucky if
 that is the case!), it will most likely be scattered around the academic
 universe.
 
-\^ Here is a non-exhaustive traveler's guide to places where you might
+Here is a non-exhaustive traveler's guide to places where you might
 or might not find the info you are looking for. Note that not all these
 associated resources are available for all papers. In these spots, you
 might find code shared by the original authors, their preregistration
@@ -32,8 +32,8 @@ additional analyses, etc
 - the appendix of the paper
 
 - the supporting information/supplemental materials of the paper (often
-  found with the electronic version of the paper, such as
-  [[https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02136.x]{.underline}](https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02136.x))
+  found with the electronic version of the paper, such as for example
+  [[this]{.underline}](https://journals.sagepub.com/doi/10.1111/j.1467-9280.2008.02136.x))
 
 - the journal's website
 
@@ -45,7 +45,7 @@ additional analyses, etc
     materials etc. if there is an associated osf project page, there
     will be a link in the paper if there is an associated osf project
     page. keep an eye out for in paper osf.io links, such as
-    [[https://osf.io/ivfu6/]{.underline}](https://osf.io/ivfu6/).
+    [[this]{.underline}](https://osf.io/ivfu6/).
 
   - keep in mind that there are many others (e.g., figshare; zenodo). so
     read the paper carefully looking for clues
@@ -60,7 +60,7 @@ additional analyses, etc
   paper, with a link to a [[osf.io]{.underline}](http://osf.io) project
   or [[aspredicted.org]{.underline}](http://aspredicted.org) project.
 
-\^ In some cases, the same data set is used in several papers by the
+In some cases, the same data set is used in several papers by the
 same authors. You would think that the description of the study would be
 the same in both papers, but you should stop thinking really. You might
 hope (you can still hope!) that when this happens, the authors would
@@ -69,14 +69,14 @@ little cross-paper-consistency, and if your OS is lacking in detail, you
 might get lucky that another paper using the same data set is a bit more
 loose-lipped in exactly how the data were collected and processed.
 
-\^ Of course, when seaching for these additional sources, google is your
+Of course, when seaching for these additional sources, google is your
 friend (though evil). Be creative!
 
-\^ A last resort for finding info about the OA is asking them. You
+A last resort for finding info about the OA is asking them. You
 should thread lightly though, which is why there is a full section for
-that (see  \@sec-contacting).
+that (see  @sec-contacting).
 
-\^ Fully understanding how the study was performed probably involves
+Fully understanding how the study was performed probably involves
 piecing together several sources of information. For example, the OAs
 might not have mentioned in the paper they deleted cases with missing
 data, so you only realize that when you inspect their code; or the OAs
