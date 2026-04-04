@@ -1,28 +1,13 @@
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  function normalize(href) {
-    const u = new URL(href, window.location.href);
-    return u.pathname
-      .replace(/index\.html$/, "")
-      .replace(/\/+$/, "/");
-  }
-
-  const homeLink =
-    document.querySelector("#quarto-sidebar-header a") ||
-    document.querySelector(".sidebar-header a") ||
-    document.querySelector(".sidebar-title a");
-
-  if (!homeLink) return;
-
-  const homePath = normalize(homeLink.getAttribute("href"));
-
   document
     .querySelectorAll("#quarto-sidebar .sidebar-item-container")
     .forEach(function (item) {
       const a = item.querySelector("a");
       if (!a) return;
 
-      if (normalize(a.getAttribute("href")) === homePath) {
+      const text = a.textContent.replace(/\s+/g, " ").trim();
+      if (text === "Preface") {
         item.style.display = "none";
       }
     });
