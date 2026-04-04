@@ -277,8 +277,7 @@ document.addEventListener("DOMContentLoaded", function () {
   <li><a href="#sec-who-this-guide-for" id="toc-sec-who-this-guide-for" class="nav-link active" data-scroll-target="#sec-who-this-guide-for"><span class="header-section-number">1.1</span> who this guide for</a></li>
   <li><a href="#sec-software" id="toc-sec-software" class="nav-link" data-scroll-target="#sec-software"><span class="header-section-number">1.2</span> software</a></li>
   <li><a href="#sec-similar-works" id="toc-sec-similar-works" class="nav-link" data-scroll-target="#sec-similar-works"><span class="header-section-number">1.3</span> similar works</a></li>
-  <li><a href="#sec-citation" id="toc-sec-citation" class="nav-link" data-scroll-target="#sec-citation"><span class="header-section-number">1.4</span> citation</a></li>
-  <li><a href="#sec-acknowledgements" id="toc-sec-acknowledgements" class="nav-link" data-scroll-target="#sec-acknowledgements"><span class="header-section-number">1.5</span> acknowledgements</a></li>
+  <li><a href="#sec-acknowledgements" id="toc-sec-acknowledgements" class="nav-link" data-scroll-target="#sec-acknowledgements"><span class="header-section-number">1.4</span> acknowledgements</a></li>
   </ul>
 </nav>
     </div>
@@ -305,27 +304,30 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <p>This guide is based on a collection of notes, which grew out of doing replication research with master students as part of their master thesis, which I started doing erratically in 2013 and somewhat systematically since 2020. I tried to create something helpful for them and this guide is a part of that survival package.</p>
-<p>While the main topic is replication research, an important step when replicating a study is critically evaluating the study of interest. A good deal of these notes focuses on these aspects (Sections @sec-evaluating to @sec-reanalysing), and includes topics like conversions, recreations, and reproductions. As evaluating or appraising a study is of interest to any researcher, not just to a researcher wishing to replicate a study, these notes might be useful for you even if you don’t want to replicate.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>While the main topic is replication research, an important step when replicating a study is critically evaluating the study of interest. A good deal of these notes focuses on these aspects (Sections <span class="quarto-unresolved-ref">?sec-evaluating</span> to <span class="quarto-unresolved-ref">?sec-reanalysing</span>), and includes topics like conversions, recreations, and reproductions. As evaluating or appraising a study is of interest to any researcher, not just to a researcher wishing to replicate a study, these notes might be useful for you even if you don’t want to replicate.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <p>This guide grew out of my own hands-on experiences and conversations with my students, and it shows. It doesn’t integrate the different findings and perspectives from all sorts of papers about replication and evaluation found in the literature. It doesn’t even try to! It just represents how I advise my students to do replication research and how to evaluate a study. It doesn’t represent (nor does it try to represent) a consensus of how the field thinks it should be done, or how it is done by others. That being said, I don’t think I am saying much that could be considered controversial. Not only is nothing in these notes controversial, nothing is new or original either. Still, my students have found it valuable to have all things collected in one place, so you might find that too.</p>
 <p>I often didn’t bother writing eloquent or long paragraphs. Again, the main goal was usefulness, not flex.</p>
 <p>This guide is incomplete by design, as it is not intended to be complete. It, for example, do not contain all possible fine grained distinctions between types of replications. My main or only criterion for inclusion was whether it is helpful to my students doing their replication study.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Further, it is also just incomplete by time. It represents what I have collected up till today, not what I think should ideally be discussed. As long as my students continue to ask me questions, this guide will be expanded in the future. So this guide is very much a work in progress. Sometimes, I know what I want to add, but haven’t found the energy or the time to do that. So you will come across a few things like “TODO: add an example”.</p>
 <p>Also, things change quickly. Tools come and go, platforms rise and fall, techniques pop up, insights mature and priorities shift. I can not possibly keep up.</p>
-<p>So this guide is supposed to be a living document. This means that</p>
-<p>1) It is a work in progress and incomplete.</p>
-<p>2) It will be regularly updated, sometimes with large overhauls (in which case I will keep a legacy copy), sometimes by just adding or deleting a few sentences.</p>
-<p>3) It is very much open to your comments and suggestions, when things are missing, unclear, or just plain stupid. Send me an email, or leave a comment in this google doc TODO update when Rmd and git.</p>
+<p>So this guide is intended to be a living document. This means that</p>
+<ol type="1">
+<li><p>It is a work in progress and incomplete.</p></li>
+<li><p>It will be regularly updated, sometimes with large overhauls (in which case I will keep a legacy copy), sometimes by just adding or deleting a few sentences.</p></li>
+<li><p>It is very much open to your comments and suggestions, when things are missing, unclear, or just plain stupid. Send me an email, or open an issue on the github repo xxx TODO xxx.</p></li>
+</ol>
+<p><!--leave a comment in this google doc TODO update when Rmd and git.--></p>
 <!-- It's just a loosely organised collection of notes, and it does not adhere to academic style. For example, I have been deliberately loose on referencing. I will try to make up for that by extending the Further Reading part.-->
-<p>Because I have a bad memory and I suspect my students do too, I ask them to write quite a few reports throughout the replication process. Most of these reports come with a template, which you may find here <a href="https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0"><u>https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0</u></a>, in case they would be useful to you. TODO update</p>
+<p>Because I have a bad memory and I suspect my students do too, I ask them to write quite a few reports throughout the replication process. Most of these reports come with a template, which you may find here <a href="https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0"><u>here</u></a>, in case they would be useful to you. TODO update</p>
 <section id="sec-who-this-guide-for" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="sec-who-this-guide-for"><span class="header-section-number">1.1</span> who this guide for</h2>
 <p>This guide heavily focuses on quantitative research, solely reflecting my own bias, interest and experience.</p>
 <p>It is written with an inexperienced audience in mind. It, for example, includes an elaborate section explaining where to look for info related to a paper. If you are a seasoned researcher but have never done a replication, this section is probably not that useful to you, but I found it was being appreciated by my inexperienced students.</p>
 <p>There is another sense in which this guide is written with an very experienced audience in mind, or at least an audience that is willing to find information elsewhere. These notes strictly focus on evaluation and replication research. As replication research is of course just a type of empirical research, a more complete description of how replication research works should, in principle, discuss how to design a study, how to collect empirical data, how to analyze the data, and so on. This guide does <em>not</em> do that, so if you are looking for that, this guide will not be (sufficient) for you. I only included stuff that is specific for doing replication research in particular, not for doing empirical research in general. Also, I assume familiarity with basic statistical concepts.</p>
-<p>However. An excellent source to learn about these general empirical and experimental methods is <a href="https://experimentology.io/"><u>Experimentology</u></a> (pdf here <a href="https://experimentology.io/Experimentology.pdf"><u>https://experimentology.io/Experimentology.pdf</u></a>). A true gem when it comes down to statistics is <a href="https://learningstatisticswithr.com/book/"><u>https://learningstatisticswithr.com/book/</u></a> (pdf here <a href="https://learningstatisticswithr.com/lsr-0.6.pdf"><u>https://learningstatisticswithr.com/lsr-0.6.pdf</u></a>). I will refer to it as LSR. Despite its name, this book comes in several versions beyond R, including JASP, all linked on <a href="https://learningstatisticswithr.com/"><u>https://learningstatisticswithr.com/</u></a>.</p>
+<p>However. An excellent source to learn about these general empirical and experimental methods is <a href="https://experimentology.io/"><u>Experimentology</u></a> (pdf <a href="https://experimentology.io/Experimentology.pdf"><u>here</u></a>). A true gem when it comes down to statistics is <a href="https://learningstatisticswithr.com/book/"><u>https://learningstatisticswithr.com/book/</u></a> (pdf <a href="https://learningstatisticswithr.com/lsr-0.6.pdf"><u>here</u></a>). I will refer to it as LSR. Despite its name, this book comes in several versions beyond R, including JASP, all linked on <a href="https://learningstatisticswithr.com/"><u>here</u></a>.</p>
 </section>
 <section id="sec-software" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="sec-software"><span class="header-section-number">1.2</span> software</h2>
-<p>In the part about evaluating a study (Section @sec-evaluating to @sec-reanalysing), I sometimes provide R code. I don’t give a lot of explanation there, because I assume you already know R, or will not bother learning R just for this goal. To make up for that, I will try to give user friendly alternatives on external websites when available. Further, I will point out if and how these analyses can be done using the open source, intuitive and free statistical software program JASP, which is freely available here <a href="https://jasp-stats.org/"><u>https://jasp-stats.org/</u></a>.</p>
+<p>In the part about evaluating a study (Section @sec-evaluating to @sec-reanalysing), I sometimes provide R code. I don’t give a lot of explanation there, because I assume you already know R, or will not bother learning R just for this goal. To make up for that, I will try to give user friendly alternatives on external websites when available. Further, I will point out if and how these analyses can be done using the open source, intuitive and free statistical software program JASP, which is freely available here <a href="https://jasp-stats.org/"><u>here</u></a>.</p>
 </section>
 <section id="sec-similar-works" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="sec-similar-works"><span class="header-section-number">1.3</span> similar works</h2>
@@ -335,13 +337,14 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><p>the <a href="https://bitss.github.io/ACRE/"><u>Guide for Accelerating Computational Reproducibility in the Social Sciences</u></a> (pdf <a href="https://bitss.github.io/ACRE/ACRE_book.pdf"><u>here</u></a>), which focuses on reproduction (which is a part of evaluating studies). I will refer to it as ACRE.</p></li>
 <li><p><a href="http://forensicmetascience.com"><u>An Introduction to Forensic Metascience</u></a> (pdf <a href="https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1"><u>here</u></a>), which is the currently best reference I know about checking the numerical conformity of a study of Section @sec-checkingconformity (which is one of the steps in the evaluation process). I will refer to it as AITFM.</p></li>
 </ul>
+<!--
+## citation {#sec-citation}
+
+Vanpaemel, W. (2026) Evaluating and replicating studies: A practical guide. Retrieved from [[earsguide.io]{.underline}](http://earsguide.io). TODO
+-->
 </section>
-<section id="sec-citation" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="sec-citation"><span class="header-section-number">1.4</span> citation</h2>
-<p>Vanpaemel, W. (2026) Evaluating and replicating studies: A practical guide. Retrieved from <a href="http://earsguide.io"><u>earsguide.io</u></a>. TODO</p>
-</section>
-<section id="sec-acknowledgements" class="level2" data-number="1.5">
-<h2 data-number="1.5" class="anchored" data-anchor-id="sec-acknowledgements"><span class="header-section-number">1.5</span> acknowledgements</h2>
+<section id="sec-acknowledgements" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="sec-acknowledgements"><span class="header-section-number">1.4</span> acknowledgements</h2>
 <p>Most of what is included in this guide was written in response to questions that were asked by my, sometimes enthusiastic and at other times frustrated, students when doing a replication study, or have originated as remarks I thought of when I was reading their work. Without my students, I wouldn’t have written any of this, so I have them to thank.</p>
 <!--
 ## table of contents {#sec-table-of-contents}
