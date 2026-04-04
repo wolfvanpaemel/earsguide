@@ -7,15 +7,15 @@ approach and shared code. It might still makes sense to do something
 different than the OAs and go beyond the exact same processing analysis
 steps or code as used by the OAs.
 
-- Your quality check from Section \@sec-checkingquality, your visual
-  check from Section \@sec-checkingvisuals, your numerical conformity
-  check from Section \@sec-checkingconformity, and your re-analysis from
-  Section \@sec-reanalyzing might have revealed the need to do things
+- Your quality check from Section @sec-checkingquality, your visual
+  check from Section @sec-checkingvisuals, your numerical conformity
+  check from Section @sec-checkingconformity, and your re-analysis from
+  Section @sec-reanalyzing might have revealed the need to do things
   differently, because the OAs did something weird or wrong.
 
 - And even if all the answers to the questions asking "was so-and-so
   done correctly?" are "hell, yeah", now is the time to ask, can
-  so-and-so be done better (see also \@sec-alternative)? Are
+  so-and-so be done better (see also @sec-alternative)? Are
   there analyses available for the same test that are more appropriate
   and have e.g. better statistical properties? xxx current state of the
   art xxx TODO add example

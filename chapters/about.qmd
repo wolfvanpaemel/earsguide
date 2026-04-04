@@ -2,7 +2,7 @@
 
 This guide is based on a collection of notes, which grew out of doing replication research with master students as part of their master thesis, which I started doing erratically in 2013 and somewhat systematically since 2020. I tried to create something helpful for them and this guide is a part of that survival package.
 
-While the main topic is replication research, an important step when replicating a study is critically evaluating the study of interest. A good deal of these notes focuses on these aspects (Sections \@sec-evaluating to \@sec-reanalysing), and includes topics like conversions, recreations, and reproductions. As evaluating or appraising a study is of interest to any researcher, not just to a researcher wishing to replicate a study, these notes might be useful for you even if you don't want to replicate.[^1]  
+While the main topic is replication research, an important step when replicating a study is critically evaluating the study of interest. A good deal of these notes focuses on these aspects (Sections @sec-evaluating to @sec-reanalysing), and includes topics like conversions, recreations, and reproductions. As evaluating or appraising a study is of interest to any researcher, not just to a researcher wishing to replicate a study, these notes might be useful for you even if you don't want to replicate.[^1]  
 
 [^1]: These sections will be added somewhere soon 
 
@@ -16,17 +16,19 @@ This guide is incomplete by design, as it is not intended to be complete. It, fo
 
 Also, things change quickly. Tools come and go, platforms rise and fall, techniques pop up, insights mature and priorities shift. I can not possibly keep up.
 
-So this guide is supposed to be a living document. This means that
+So this guide is intended to be a living document. This means that
 
-1\) It is a work in progress and incomplete.
+  1. It is a work in progress and incomplete.
 
-2\) It will be regularly updated, sometimes with large overhauls (in which case I will keep a legacy copy), sometimes by just adding or deleting a few sentences.
+  2. It will be regularly updated, sometimes with large overhauls (in which case I will keep a legacy copy), sometimes by just adding or deleting a few sentences.
 
-3\) It is very much open to your comments and suggestions, when things are missing, unclear, or just plain stupid. Send me an email, or leave a comment in this google doc TODO update when Rmd and git.
+  3. It is very much open to your comments and suggestions, when things are missing, unclear, or just plain stupid. Send me an email, or open an issue on the github repo xxx TODO xxx.
+  
+  <!--leave a comment in this google doc TODO update when Rmd and git.-->
 
 <!-- It's just a loosely organised collection of notes, and it does not adhere to academic style. For example, I have been deliberately loose on referencing. I will try to make up for that by extending the Further Reading part.-->
 
-Because I have a bad memory and I suspect my students do too, I ask them to write quite a few reports throughout the replication process. Most of these reports come with a template, which you may find here [[https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-\_SiyqXuZC7s/edit?tab=t.0]{.underline}](https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0), in case they would be useful to you. TODO update
+Because I have a bad memory and I suspect my students do too, I ask them to write quite a few reports throughout the replication process. Most of these reports come with a template, which you may find here [[here]{.underline}](https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0), in case they would be useful to you. TODO update
 
 ## who this guide for {#sec-who-this-guide-for}
 
@@ -36,11 +38,11 @@ It is written with an inexperienced audience in mind. It, for example, includes 
 
 There is another sense in which this guide is written with an very experienced audience in mind, or at least an audience that is willing to find information elsewhere. These notes strictly focus on evaluation and replication research. As replication research is of course just a type of empirical research, a more complete description of how replication research works should, in principle, discuss how to design a study, how to collect empirical data, how to analyze the data, and so on. This guide does *not* do that, so if you are looking for that, this guide will not be (sufficient) for you. I only included stuff that is specific for doing replication research in particular, not for doing empirical research in general. Also, I assume familiarity with basic statistical concepts.
 
-However. An excellent source to learn about these general empirical and experimental methods is [[Experimentology]{.underline}](https://experimentology.io/) (pdf here [[https://experimentology.io/Experimentology.pdf]{.underline}](https://experimentology.io/Experimentology.pdf)). A true gem when it comes down to statistics is [[https://learningstatisticswithr.com/book/]{.underline}](https://learningstatisticswithr.com/book/) (pdf here [[https://learningstatisticswithr.com/lsr-0.6.pdf]{.underline}](https://learningstatisticswithr.com/lsr-0.6.pdf)). I will refer to it as LSR. Despite its name, this book comes in several versions beyond R, including JASP, all linked on [[https://learningstatisticswithr.com/]{.underline}](https://learningstatisticswithr.com/).
+However. An excellent source to learn about these general empirical and experimental methods is [[Experimentology]{.underline}](https://experimentology.io/) (pdf [[here]{.underline}](https://experimentology.io/Experimentology.pdf)). A true gem when it comes down to statistics is [[https://learningstatisticswithr.com/book/]{.underline}](https://learningstatisticswithr.com/book/) (pdf [[here]{.underline}](https://learningstatisticswithr.com/lsr-0.6.pdf)). I will refer to it as LSR. Despite its name, this book comes in several versions beyond R, including JASP, all linked on [[here]{.underline}](https://learningstatisticswithr.com/).
 
 ## software {#sec-software}
 
-In the part about evaluating a study (Section \@sec-evaluating to \@sec-reanalysing), I sometimes provide R code. I don't give a lot of explanation there, because I assume you already know R, or will not bother learning R just for this goal. To make up for that, I will try to give user friendly alternatives on external websites when available. Further, I will point out if and how these analyses can be done using the open source, intuitive and free statistical software program JASP, which is freely available here [[https://jasp-stats.org/]{.underline}](https://jasp-stats.org/).
+In the part about evaluating a study (Section \@sec-evaluating to \@sec-reanalysing), I sometimes provide R code. I don't give a lot of explanation there, because I assume you already know R, or will not bother learning R just for this goal. To make up for that, I will try to give user friendly alternatives on external websites when available. Further, I will point out if and how these analyses can be done using the open source, intuitive and free statistical software program JASP, which is freely available here [[here]{.underline}](https://jasp-stats.org/).
 
 ## similar works {#sec-similar-works}
 
@@ -52,9 +54,12 @@ To avoid having to replicate stuff that other people have written earlier and we
 
 -   [[An Introduction to Forensic Metascience]{.underline}](http://forensicmetascience.com) (pdf [[here]{.underline}](https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1)), which is the currently best reference I know about checking the numerical conformity of a study of Section \@sec-checkingconformity (which is one of the steps in the evaluation process). I will refer to it as AITFM.
 
+<!--
 ## citation {#sec-citation}
 
 Vanpaemel, W. (2026) Evaluating and replicating studies: A practical guide. Retrieved from [[earsguide.io]{.underline}](http://earsguide.io). TODO
+-->
+
 
 ## acknowledgements {#sec-acknowledgements}
 
