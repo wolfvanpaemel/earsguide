@@ -3,7 +3,7 @@
 <!-- todo later xxx a bit like correcting bugs vs adding features in software
 development-->
 
-\^ While the idea of *doing everything the same way the original
+While the idea of *doing everything the same way the original
 authors* *did* seems ideal (at least in terms of deciding what to do),
 in practice, it is guaranteed to turn out to be much more muddy. A lot
 of work in the definition of a replication is done by the word *same*.
@@ -14,16 +14,16 @@ same 3) it can be plain stupid to do the same!
 
 ## doing the same is impossible or infeasible {#sec-impossible}
 
-\^ First, doing everything the same is sometimes infeasible or even
+First, doing everything the same is sometimes infeasible or even
 downright impossible. Even if you would like to do everything the OAs
 did exactly again, your study inevitably *will* differ from the original
 one!
 
-\^ You, for example, will have different participants in your sample.
+You, for example, will have different participants in your sample.
 The people that participated in the OS are typically untraceable. There
 will inevitably be a difference in the sample you use.
 
-\^ What's worse, you might live in a different **place** than the OAs.
+What's worse, you might live in a different **place** than the OAs.
 So if the OS did not involve click workers and unless you are up for
 academic travel, your sample will come from a different place and as a
 result may have different characteristics like theirs, in terms of age,
@@ -36,11 +36,11 @@ studied the influence of xxx on social media use with students living in
 dorms, but your local students population is not living in dorms. So
 this means you might be sampling from a different **population**.
 
-\^ As Bawb had told us, times, they are a-changin'. So another
+As Bawb had told us, times, they are a-changin'. So another
 difference you can not avoid unless you are Doc and drive a DeLorean, is
 **time**.
 
-\^ A similar reasoning relates to the **context** of the study. Some
+A similar reasoning relates to the **context** of the study. Some
 studies focus on something that is very context dependent for which the
 context is hard to recreate. Take, for example, a study on the mental
 health during the March 2020 lockdown in Belgium. It will be hard to
@@ -51,7 +51,7 @@ lockdown is different, in terms of build-up, severity of the disease,
 groups of people being most affected, regulations, measures and policies
 etc.
 
-\^ Finally, maybe you don't have the same **means** as the OAs, which
+Finally, maybe you don't have the same **means** as the OAs, which
 could be due to the passage of time, or to the division of wealth, or
 just other practical stuff getting in the ways. That makes doing the
 same not impossible in general, but at least impossible for you. For
@@ -61,7 +61,7 @@ collected their data over summer, but the practicalities of your data
 collection makes it impossible for you to do so and you will have you do
 your data collection during winter.
 
-\^ There's a sadder reason than geography and physics why doing things
+There's a sadder reason than geography and physics why doing things
 exactly the same might be impossible. These reasons are psychology and
 sociology. It is often surprisingly hard to find out exactly what the
 OAs did in all its glory **details**, as they tend to under-report what
@@ -98,7 +98,7 @@ than you wished for!
 
 - etc
 
-\^ So because authors are often terribly unspecific in their methods
+So because authors are often terribly unspecific in their methods
 description, it will often be unclear what the OAs did. So the default
 "do as they did" doesn't work here. We could ask them, but still, and
 shockingly, it often remains unclear! If the OAs were unspecific in
@@ -108,7 +108,7 @@ details themselves, your glorious road to sameness abruptly ends.
 
 ## doing the same is ambiguous {#sec-ambiguous}
 
-\^ The same and the same are not the same. Even if you ignore the
+The same and the same are not the same. Even if you ignore the
 inevitable differences between now and then, and you go full Nancy Drew
 and you do find out exactly what the OAs have been doing, it is often
 simply unclear what *doing the same* exactly means. This has to do with
@@ -203,7 +203,7 @@ encountered when doing replications, just to give you a feel:
 
 - etc
 
-\^ The *the same is not the same as the same* problem is further
+The *the same is not the same as the same* problem is further
 amplified by what we tend to celebrate: **scientific progress**. There
 is a good chance that since the OS the state of the art about data
 collection, data processing and data analysis has changed. Science
@@ -233,7 +233,7 @@ different materials or analyses altogether.
   the same strategy of testing the hypotheses using appropriate tools)?
   TODO add example
 
-\^ Another reason why *doing the same* can be ambiguous is that there is
+Another reason why *doing the same* can be ambiguous is that there is
 sometimes, embarrassingly, more of the same. Some OAs underreport,
 others overreport.
 
@@ -248,7 +248,7 @@ others overreport.
   check which version they actually uses? Which version should you use
   if you want to do the same?
 
-\^ To be clear, I don't have the answers to these questions raised when
+To be clear, I don't have the answers to these questions raised when
 discussing ambiguity. Sometimes the answer will be: do several things,
 all of which implement the idea of *the same* to some extent. But these
 are things that you will come across and will need to make decisions
@@ -257,14 +257,14 @@ times (see also \@sec-designanalysis).
 
 ## doing the same is not ideal or undesired {#sec-sec-undesired}
 
-\^ The previous examples focused on cases where something better is
+The previous examples focused on cases where something better is
 available, but the original approach was not terrible. Sometimes,
 however, scientific **progress** is so clear that doing the same as in
 making the same choice is simply undesired. Which is what I discuss
 next. In these cases, doing exactly the same as the OAs is perfectly
 possible, but doing so would actually be bad form! xxx
 
-\^ You might have decided to use a different population, such as
+You might have decided to use a different population, such as
 nationality (which, as per above, might or might not mean you are still
 doing a replication). Clearly, replicating an OS which was done in
 Portugal with Portuguese materials with your Dutch speaking participants
@@ -273,7 +273,7 @@ idea. This means that you might need to do things in a different
 language than the OAs, which means you will have to find translated
 materials or possibly do the translation yourself.
 
-\^ xxx A final instantation of the ambiguity of *same* is a result of
+xxx A final instantation of the ambiguity of *same* is a result of
 the OS (probably) being set in a different time and place. In some
 situations, there is again the option of using the literal original
 material (same choice) or you might need to "translate" the study to a
@@ -299,12 +299,12 @@ current, local context
   term "TV personality" should be updated to current day celebrities and
   media personalities like influencers.
 
-\^ These sorts of problems call for the use of positive or negative
+These sorts of problems call for the use of positive or negative
 controls, or piloting.
 
-\^ Also, there is a non-negligible chance that the OAs did something
+Also, there is a non-negligible chance that the OAs did something
 wrong or stupid (I should watch my language. Maybe I should go and read
-Section \@sec-writing) when designing their study and analyzing their
+@sec-writing) when designing their study and analyzing their
 data so the OS suffers from serious methodologcal shortcomings. After
 all, they are human too!
 
@@ -324,7 +324,7 @@ all, they are human too!
 
 - TODO: add example birthe
 
-- In Sections \@sec-reproducibility and \@sec-checkingquality, I list
+- In @sec-reproducibility and @sec-checkingquality, I list
   some common statistical fallacies and mistakes, but obviously the
   catalogue is much larger.
 
@@ -333,7 +333,7 @@ especially if a better option is available. *They* may have done stupid
 things that are deeply flawed, but *you* are not making these **errors**
 that again.
 
-\^ But even when the OAs didn't do something wrong or stupid, there is
+But even when the OAs didn't do something wrong or stupid, there is
 no reason to just relax. Remember how I told you science progresses? I
 still stand behind that statement! Maybe, and more generously, what they
 did made perfect sense at the time of their study, but now we realize
@@ -343,17 +343,17 @@ their design, materials, and analysis was appropriate, you migh want to
 look further so that your study reflects current best practices. For
 example, TODO: add example.
 
-- For example, maybe the OS was done in a time where attention and
+For example, maybe the OS was done in a time where attention and
 manipulation checks weren't customary. This does not mean your study
 should not include some (there are reasons, though, to not include it
 xxx)
 
-- There are better stimuli, questionnaires, tools, techniques and
+There are better stimuli, questionnaires, tools, techniques and
   statistical approaches available now.
 
 ## doing the same is not your current interest {#sec-nointerest}
 
-\^ Everybody is unique and, somewhat contradicting to that claim, you
+Everybody is unique and, somewhat contradicting to that claim, you
 are no exception to that. So you might have slightly different interests
 than the OAs. Sometimes, you don't want to do the same, because you are
 interested in something different than the OAs. Or, you might feel
@@ -363,7 +363,7 @@ uncreative, nasty and kleptomanic personality. So maybe in your study,
 you *want* things to be different. As per above, the difference might be
 relevant enough to no longer count as a replication study.
 
-\^ You might be interested in a different population. You could end up
+You might be interested in a different population. You could end up
 doing a study again (with the same research questions, materials,
 experimental design and analytic plan) but in a different population
 (e.g., with Europeans or Belgians instead of with Americans; or with
@@ -393,17 +393,17 @@ impressions to online impressions xxx).
   count as a replication, depending on the extent to which the OAs
   stressed that their conclusion is limited to young adults. xxx
 
-\^ Of course, changing the population of interest might mean you need to
+Of course, changing the population of interest might mean you need to
 change other stuff. A survey targeted at soccer players most likely
 contains slightly different items than at golf players; doing a study
 with kids that invoked trauma using film clips should probably use
 different film clips to invoke trauma if it involves adults; etc
 
-\^ You might be interested in a different approach: Does xxx only work
+You might be interested in a different approach: Does xxx only work
 with film clips or also with text xxx? Or does the crowd within effect
 gets bigger when the delay is longer?
 
-\^ Maybe you want your study to be more informative than theirs. For
+Maybe you want your study to be more informative than theirs. For
 example, you might want to include additional factors or variables that
 the OAs did not consider.
 
@@ -417,7 +417,7 @@ the OAs did not consider.
 
 ## ok, i get it. can we wrap up, please?
 
-\^ So say you do a replication and the OAs were kind enough to share all
+So say you do a replication and the OAs were kind enough to share all
 their study materials and all their analysis code. This might sound like
 you have hit the replication jackpot! Your first instinct might be to
 just use all of that and call it a day. After all, the point is to do
@@ -450,7 +450,7 @@ So much for "just doing the same". So while in an ideal world, you can
 simply do *everything just like the original authors did*, I hope to
 have warned you by now that often, it won't be that simple.
 
-\^ Also, note that there are many aspects to a study. Your study might
+Also, note that there are many aspects to a study. Your study might
 be the exact same in the materials used, but not in the design. Or you
 might test the same hypothesis, but using different analyses. All this
 leads to a vast array of types of replications. But these fine grained
@@ -459,7 +459,7 @@ uninteresting. The most important take-away is 1) that you should not
 panic if you can't do things the same 2) that doing the same is not
 always a good, let alone the best, idea
 
-\^ Since we are on the topic of warnings, here's another warning you
+Since we are on the topic of warnings, here's another warning you
 didn't know you needed. As HRSS writes, "Ideally, being replicated would
 be an honor for authors since other researchers deem their findings
 important but a failed replication could potentially harm the reputation

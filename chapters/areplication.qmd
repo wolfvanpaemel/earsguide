@@ -27,7 +27,7 @@ Another terminological confusion relates to the sentence "Study X has
 been replicated". Typically, it just means that someone has tried to do
 the study again. It doesn't say anything about the results that someone
 has found. When that someone found the same results (by whatever
-criterion; see \@sec-designinganalysis), you would read "Study X was successfully
+criterion; see @sec-designinganalysis), you would read "Study X was successfully
 replicated", and if the results were different, you would read "Study X
 failed to replicate". Somehow, i would interpret "Study X has been
 reproduced" as "Study X has been successfully reproduced" but it might
