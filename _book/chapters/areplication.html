@@ -74,38 +74,6 @@ ul.task-list li input[type="checkbox"] {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  function normalize(href) {
-
-    const u = new URL(href, window.location.href);
-
-    return u.pathname
-
-      .replace(/index\.html$/, "")
-
-      .replace(/\/+$/, "/");
-
-  }
-
-
-
-  const homeLink =
-
-    document.querySelector("#quarto-sidebar-header a") ||
-
-    document.querySelector(".sidebar-header a") ||
-
-    document.querySelector(".sidebar-title a");
-
-
-
-  if (!homeLink) return;
-
-
-
-  const homePath = normalize(homeLink.getAttribute("href"));
-
-
-
   document
 
     .querySelectorAll("#quarto-sidebar .sidebar-item-container")
@@ -118,7 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-      if (normalize(a.getAttribute("href")) === homePath) {
+      const text = a.textContent.replace(/\s+/g, " ").trim();
+
+      if (text === "Preface") {
 
         item.style.display = "none";
 
@@ -268,38 +238,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/repintro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">General</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/designings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Designing your study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/designinga.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Desiging your analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/prereg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Preregistering your study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/collecting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Collecting your data</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/interpreting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Interpreting your result</span></span></a>
+  <a href="../chapters/todo2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -315,20 +255,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/writing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Writing up your evaluation and replication study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/publishing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Publishing</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Sharing</span></span></a>
+  <a href="../chapters/todo3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -344,8 +272,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/todo2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
+  <a href="../chapters/todo4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -380,14 +308,14 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>^ Let’s start by discussing some terminology</p>
+<p>Let’s start by discussing some terminology</p>
 <ul>
 <li><p>A <strong>replication</strong> of a result involves collecting new data in the same design and running the same analyses on the <strong>newly collected data</strong> (i.e.&nbsp;different data) to test the same hypothesis (or more broadly: to answer the same research question) as someone else did already. Typically, this is done by different researchers than the ones that came up with the result in the first place. If researchers replicate their own work, this is called a self-replication.</p></li>
 <li><p>A replication is related to but different from a <strong>reproduction</strong> of someone’s work (which we will discuss in more detail in Section @sec-reproducibility). This involves someone else running the same analyses on the <strong>already collected data</strong> (i.e., the same data; with code either self-written or provided by the original researchers, or something in between).</p></li>
 </ul>
-<p>^ Not that this is the terminology I will stick to in these notes, but keep in mind that conventions differ across fields, disciplines, time, researchers and vibes. For example, when in 2105 200 researchers (including myself) replicated 100 studies, they collectively thought they were <mark>Estimating the reproducibility of psychological science <a href="https://www.science.org/doi/10.1126/science.aac4716"><u>https://www.science.org/doi/10.1126/science.aac4716</u></a></mark></p>
-<p>^ Another terminological confusion relates to the sentence “Study X has been replicated”. Typically, it just means that someone has tried to do the study again. It doesn’t say anything about the results that someone has found. When that someone found the same results (by whatever criterion; see Section XXX), you would read “Study X was successfully replicated”, and if the results were different, you would read “Study X failed to replicate”. Somehow, i would interpret “Study X has been reproduced” as “Study X has been successfully reproduced” but it might be just me.</p>
-<p>^ So, basically, when you do a replication, you will be doing an earlier study again. Let's introduce some more terminology. The study you will do again aka replicate will be referred to as <em>the original study (OS)</em>, and its authors as, wait for it, <em>the original authors (OAs)</em>. I have tried to suppress my gangsta desire to use O.G. study and O.G. authors, but I can't promise I've always succeeded.</p>
+<p>Not that this is the terminology I will stick to in these notes, but keep in mind that conventions differ across fields, disciplines, time, researchers and vibes. For example, when in 2105 200 researchers (including myself) replicated 100 studies, they collectively thought they were <a href="https://www.science.org/doi/10.1126/science.aac4716"><u>Estimating the reproducibility of psychological science</u></a>, while in fact they were checking replicability.</p>
+<p>Another terminological confusion relates to the sentence “Study X has been replicated”. Typically, it just means that someone has tried to do the study again. It doesn’t say anything about the results that someone has found. When that someone found the same results (by whatever criterion; see <span class="quarto-unresolved-ref">?sec-designinganalysis</span>), you would read “Study X was successfully replicated”, and if the results were different, you would read “Study X failed to replicate”. Somehow, i would interpret “Study X has been reproduced” as “Study X has been successfully reproduced” but it might be just me.</p>
+<p>So, basically, when you do a replication, you will be doing an earlier study again. Let's introduce some more terminology. The study you will do again aka replicate will be referred to as <em>the original study (OS)</em>, and its authors as, wait for it, <em>the original authors (OAs)</em>. I have tried to suppress my gangsta desire to use O.G. study and O.G. authors, but I can't promise I've always succeeded.</p>
 
 
 

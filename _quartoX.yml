@@ -22,13 +22,20 @@ book:
         - chapters/todo.qmd
     - part: "REPLICATING"
       chapters:
-        - chapters/todo2.qmd
+        - chapters/repintro.qmd
+        - chapters/designings.qmd
+        - chapters/designinga.qmd
+        - chapters/prereg.qmd
+        - chapters/collecting.qmd
+        - chapters/interpreting.qmd
     - part: "WRITNG UP AND WRAPPING UP"
       chapters:
-        - chapters/todo3.qmd
+        - chapters/writing.qmd
+        - chapters/publishing.qmd
+        - chapters/sharing.qmd
     - part: "FURTHER READING"
       chapters:
-        - chapters/todo4.qmd
+        - chapters/todo2.qmd
 
 format:
   html:

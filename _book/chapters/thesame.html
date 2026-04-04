@@ -74,38 +74,6 @@ ul.task-list li input[type="checkbox"] {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  function normalize(href) {
-
-    const u = new URL(href, window.location.href);
-
-    return u.pathname
-
-      .replace(/index\.html$/, "")
-
-      .replace(/\/+$/, "/");
-
-  }
-
-
-
-  const homeLink =
-
-    document.querySelector("#quarto-sidebar-header a") ||
-
-    document.querySelector(".sidebar-header a") ||
-
-    document.querySelector(".sidebar-title a");
-
-
-
-  if (!homeLink) return;
-
-
-
-  const homePath = normalize(homeLink.getAttribute("href"));
-
-
-
   document
 
     .querySelectorAll("#quarto-sidebar .sidebar-item-container")
@@ -118,7 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-      if (normalize(a.getAttribute("href")) === homePath) {
+      const text = a.textContent.replace(/\s+/g, " ").trim();
+
+      if (text === "Preface") {
 
         item.style.display = "none";
 
@@ -268,38 +238,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/repintro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">General</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/designings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Designing your study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/designinga.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Desiging your analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/prereg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Preregistering your study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/collecting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Collecting your data</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/interpreting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Interpreting your result</span></span></a>
+  <a href="../chapters/todo2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -315,20 +255,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/writing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Writing up your evaluation and replication study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/publishing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Publishing</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Sharing</span></span></a>
+  <a href="../chapters/todo3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -344,8 +272,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/todo2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
+  <a href="../chapters/todo4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -390,17 +318,18 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>xxx a bit like correcting bugs vs adding features in software development</p>
-<p>^ While the idea of <em>doing everything the same way the original authors</em> <em>did</em> seems ideal (at least in terms of deciding what to do), in practice, it is guaranteed to turn out to be much more muddy. A lot of work in the definition of a replication is done by the word <em>same</em>. There's a lot to say about that. Below, I'll try to say a few bits. As I explain below, 1) it can be very hard if not impossible to do things the same; 2) it can be hard to judge whether or not you actually do the same 3) it can be plain stupid to do the same!</p>
+<!-- todo later xxx a bit like correcting bugs vs adding features in software
+development-->
+<p>While the idea of <em>doing everything the same way the original authors</em> <em>did</em> seems ideal (at least in terms of deciding what to do), in practice, it is guaranteed to turn out to be much more muddy. A lot of work in the definition of a replication is done by the word <em>same</em>. There's a lot to say about that. Below, I'll try to say a few bits. As I explain below, 1) it can be very hard if not impossible to do things the same; 2) it can be hard to judge whether or not you actually do the same 3) it can be plain stupid to do the same!</p>
 <section id="sec-impossible" class="level2" data-number="3.1">
 <h2 data-number="3.1" class="anchored" data-anchor-id="sec-impossible"><span class="header-section-number">3.1</span> doing the same is impossible or infeasible</h2>
-<p>^ First, doing everything the same is sometimes infeasible or even downright impossible. Even if you would like to do everything the OAs did exactly again, your study inevitably <em>will</em> differ from the original one!</p>
-<p>^ You, for example, will have different participants in your sample. The people that participated in the OS are typically untraceable. There will inevitably be a difference in the sample you use.</p>
-<p>^ What’s worse, you might live in a different <strong>place</strong> than the OAs. So if the OS did not involve click workers and unless you are up for academic travel, your sample will come from a different place and as a result may have different characteristics like theirs, in terms of age, gender, religion, culture, nationality and so on. You might live in a different country than the OAs of the study you are replicating, where the inhabitants might have different characteristics (such as religiosity, level of conservatism, etc). your “general population” might differ from their “general population”. Or the OAs might have studied the influence of xxx on social media use with students living in dorms, but your local students population is not living in dorms. So this means you might be sampling from a different <strong>population</strong>.</p>
-<p>^ As Bawb had told us, times, they are a-changin’. So another difference you can not avoid unless you are Doc and drive a DeLorean, is <strong>time</strong>.</p>
-<p>^ A similar reasoning relates to the <strong>context</strong> of the study. Some studies focus on something that is very context dependent for which the context is hard to recreate. Take, for example, a study on the mental health during the March 2020 lockdown in Belgium. It will be hard to recreate the exact circumstances in Belgium in March 2020. Even if you are “lucky” to live through another lockdown, and study mental health again in Belgium, your study will probably not be the same. Each lockdown is different, in terms of build-up, severity of the disease, groups of people being most affected, regulations, measures and policies etc.</p>
-<p>^ Finally, maybe you don’t have the same <strong>means</strong> as the OAs, which could be due to the passage of time, or to the division of wealth, or just other practical stuff getting in the ways. That makes doing the same not impossible in general, but at least impossible for you. For example, you do a study again but, for some technical reason, you use pictures instead of film clips to invoke trauma. Or the OAs might have collected their data over summer, but the practicalities of your data collection makes it impossible for you to do so and you will have you do your data collection during winter.</p>
-<p>^ There’s a sadder reason than geography and physics why doing things exactly the same might be impossible. These reasons are psychology and sociology. It is often surprisingly hard to find out exactly what the OAs did in all its glory <strong>details</strong>, as they tend to under-report what exactly they did. Often, authors keep their readers in the dark about lots of stuff, both big and small. Things have gotten slightly better recently, but no one is adding this info retroactively to their imprecisely reported studies! And of course, if you don’t know what the OAs did, how can you do it again? Do you want an example? I have more than you wished for!</p>
+<p>First, doing everything the same is sometimes infeasible or even downright impossible. Even if you would like to do everything the OAs did exactly again, your study inevitably <em>will</em> differ from the original one!</p>
+<p>You, for example, will have different participants in your sample. The people that participated in the OS are typically untraceable. There will inevitably be a difference in the sample you use.</p>
+<p>What’s worse, you might live in a different <strong>place</strong> than the OAs. So if the OS did not involve click workers and unless you are up for academic travel, your sample will come from a different place and as a result may have different characteristics like theirs, in terms of age, gender, religion, culture, nationality and so on. You might live in a different country than the OAs of the study you are replicating, where the inhabitants might have different characteristics (such as religiosity, level of conservatism, etc). your “general population” might differ from their “general population”. Or the OAs might have studied the influence of xxx on social media use with students living in dorms, but your local students population is not living in dorms. So this means you might be sampling from a different <strong>population</strong>.</p>
+<p>As Bawb had told us, times, they are a-changin’. So another difference you can not avoid unless you are Doc and drive a DeLorean, is <strong>time</strong>.</p>
+<p>A similar reasoning relates to the <strong>context</strong> of the study. Some studies focus on something that is very context dependent for which the context is hard to recreate. Take, for example, a study on the mental health during the March 2020 lockdown in Belgium. It will be hard to recreate the exact circumstances in Belgium in March 2020. Even if you are “lucky” to live through another lockdown, and study mental health again in Belgium, your study will probably not be the same. Each lockdown is different, in terms of build-up, severity of the disease, groups of people being most affected, regulations, measures and policies etc.</p>
+<p>Finally, maybe you don’t have the same <strong>means</strong> as the OAs, which could be due to the passage of time, or to the division of wealth, or just other practical stuff getting in the ways. That makes doing the same not impossible in general, but at least impossible for you. For example, you do a study again but, for some technical reason, you use pictures instead of film clips to invoke trauma. Or the OAs might have collected their data over summer, but the practicalities of your data collection makes it impossible for you to do so and you will have you do your data collection during winter.</p>
+<p>There’s a sadder reason than geography and physics why doing things exactly the same might be impossible. These reasons are psychology and sociology. It is often surprisingly hard to find out exactly what the OAs did in all its glory <strong>details</strong>, as they tend to under-report what exactly they did. Often, authors keep their readers in the dark about lots of stuff, both big and small. Things have gotten slightly better recently, but no one is adding this info retroactively to their imprecisely reported studies! And of course, if you don’t know what the OAs did, how can you do it again? Do you want an example? I have more than you wished for!</p>
 <ul>
 <li><p>If the OAs included a subscale of measure D in their analyses, did they only present the relevant items to the participants, or did they present the full set of items and only analysed the data for the subscale?</p></li>
 <li><p>When doing an independent samples t-test, did the OAs use the Student version (assuming equal variances) of the Welch version (not assuming equal variances)? When doing a Pearson’s Chi-squared test, did they use a continuity correction or not? Which type of ANOVA (I, II or III) was done?</p></li>
@@ -411,11 +340,11 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><p>The OAs know, but they won’t tell you! Or more likely, they won’t know. They won’t tell you and you will need to guess! TODO add more examples from Artner et al.&nbsp;(2021).</p></li>
 <li><p>etc</p></li>
 </ul>
-<p>^ So because authors are often terribly unspecific in their methods description, it will often be unclear what the OAs did. So the default “do as they did” doesn’t work here. We could ask them, but still, and shockingly, it often remains unclear! If the OAs were unspecific in their reporting at the time of their reporting, and they are now non-communicative when prompted for details or simply don’t remember the details themselves, your glorious road to sameness abruptly ends.</p>
+<p>So because authors are often terribly unspecific in their methods description, it will often be unclear what the OAs did. So the default “do as they did” doesn’t work here. We could ask them, but still, and shockingly, it often remains unclear! If the OAs were unspecific in their reporting at the time of their reporting, and they are now non-communicative when prompted for details or simply don’t remember the details themselves, your glorious road to sameness abruptly ends.</p>
 </section>
 <section id="sec-ambiguous" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="sec-ambiguous"><span class="header-section-number">3.2</span> doing the same is ambiguous</h2>
-<p>^ The same and the same are not the same. Even if you ignore the inevitable differences between now and then, and you go full Nancy Drew and you do find out exactly what the OAs have been doing, it is often simply unclear what <em>doing the same</em> exactly means. This has to do with the fact that “the same” can have two different meanings: you can either make the same <em>choice</em> as the OAs made, or you can follow the same <em>decision</em> <em>strategy</em> as the OAs did. Those both routes do not necessarily lead to the identical steps! Here are some examples I encountered when doing replications, just to give you a feel:</p>
+<p>The same and the same are not the same. Even if you ignore the inevitable differences between now and then, and you go full Nancy Drew and you do find out exactly what the OAs have been doing, it is often simply unclear what <em>doing the same</em> exactly means. This has to do with the fact that “the same” can have two different meanings: you can either make the same <em>choice</em> as the OAs made, or you can follow the same <em>decision</em> <em>strategy</em> as the OAs did. Those both routes do not necessarily lead to the identical steps! Here are some examples I encountered when doing replications, just to give you a feel:</p>
 <ul>
 <li><p>The OAs make weird choices in data collection without justification, such as rewording items or instructions compared to the “official” source, or add an item of their own making, or inexplicably dropped an item. Do you make the same weird choice or do you follow the same strategy of assessing construct X with tool Y and thus follow the manual?</p></li>
 <li><p>Back in the 80s, the OAs paid their participants $20 for a short task, which was quite a sizeable sum at the time. Do you make the same choice and pay the same amount (in your local currency) or do you follow the same strategy and pay “a lot” too (whatever that currently means) and xxx incentives remuneration if the effect depends on it, it should be equally high. moet lager. dit is over dat het een verschil kan zijn. en dat het mss chice vs stratey xxx</p></li>
@@ -437,31 +366,31 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><p>The OAs derived four clusters of participants, based on their data. Do you make the same choice and use the same number of clusters and the same cutoff, or do you follow the same strategy and make a possible different number of clusters of your own, based on your own data?</p></li>
 <li><p>etc</p></li>
 </ul>
-<p>^ The <em>the same is not the same as the same</em> problem is further amplified by what we tend to celebrate: <strong>scientific progress</strong>. There is a good chance that since the OS the state of the art about data collection, data processing and data analysis has changed. Science progresses, you know. Especially for older papers, it makes sense to use different materials or analyses altogether.</p>
+<p>The <em>the same is not the same as the same</em> problem is further amplified by what we tend to celebrate: <strong>scientific progress</strong>. There is a good chance that since the OS the state of the art about data collection, data processing and data analysis has changed. Science progresses, you know. Especially for older papers, it makes sense to use different materials or analyses altogether.</p>
 <ul>
 <li><p>Maybe there is now an updated, better version of the stimulus set or questionnaire the OAs used. Do you make the same choice and use the old version, or the same strategy and use the updated version?</p></li>
 <li><p>Maybe there is a new (and possibly better) questionnaire assessing the same construct or concept altogether, so not just an updated version of the questionnaire the OAs used. Do you make the same choice and use the questionnaire used but the OAs (using questionnaire X), or the same strategy and use the new questionnaire (assessing construct Y)? If the OAs measured depression with questionnaire A, but now, years later, questionnaire B for measuring depression turns out to be better in some sense, is using A the same (using the same choice of questionnaire) or is using B the same (using the same strategy of assessing the depression using a questionnaire)? TODO merge with previous</p></li>
 <li><p>Maybe the OAs did an analysis which is ok but could be improved upon, either because you just had a better education, or new tools have been developed since the OS. Do you stick to the ok analyses (making the same choices) or do you go for the new and improved ones (following the same strategy of testing the hypotheses using appropriate tools)? TODO add example</p></li>
 </ul>
-<p>^ Another reason why <em>doing the same</em> can be ambiguous is that there is sometimes, embarrassingly, more of the same. Some OAs underreport, others overreport.</p>
+<p>Another reason why <em>doing the same</em> can be ambiguous is that there is sometimes, embarrassingly, more of the same. Some OAs underreport, others overreport.</p>
 <ul>
 <li><p>The OAs report in their paper a few examples items of their survey. They also shared their study materials with the world. Great! But what if the reported items are not identical to the shared items? Which ones should you use if you want to do the same?</p></li>
 <li><p>The OAs report in their paper using a Welch t-test. They also shared their code with the world. That’s awfully nice! But what if the code shows they used a Student t-test, and you don’t have the raw data to check which version they actually uses? Which version should you use if you want to do the same?</p></li>
 </ul>
-<p>^ To be clear, I don’t have the answers to these questions raised when discussing ambiguity. Sometimes the answer will be: do several things, all of which implement the idea of <em>the same</em> to some extent. But these are things that you will come across and will need to make decisions about. So often, it might be interesting to do the main analyses several times (see also @sec-designanalysis).</p>
+<p>To be clear, I don’t have the answers to these questions raised when discussing ambiguity. Sometimes the answer will be: do several things, all of which implement the idea of <em>the same</em> to some extent. But these are things that you will come across and will need to make decisions about. So often, it might be interesting to do the main analyses several times (see also @sec-designanalysis).</p>
 </section>
 <section id="sec-sec-undesired" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="sec-sec-undesired"><span class="header-section-number">3.3</span> doing the same is not ideal or undesired</h2>
-<p>^ The previous examples focused on cases where something better is available, but the original approach was not terrible. Sometimes, however, scientific <strong>progress</strong> is so clear that doing the same as in making the same choice is simply undesired. Which is what I discuss next. In these cases, doing exactly the same as the OAs is perfectly possible, but doing so would actually be bad form! xxx</p>
-<p>^ You might have decided to use a different population, such as nationality (which, as per above, might or might not mean you are still doing a replication). Clearly, replicating an OS which was done in Portugal with Portuguese materials with your Dutch speaking participants will give you a very high score on sameness, but would be a very bad idea. This means that you might need to do things in a different language than the OAs, which means you will have to find translated materials or possibly do the translation yourself.</p>
-<p>^ xxx A final instantation of the ambiguity of <em>same</em> is a result of the OS (probably) being set in a different time and place. In some situations, there is again the option of using the literal original material (same choice) or you might need to “translate” the study to a current, local context (same strategy).</p>
+<p>The previous examples focused on cases where something better is available, but the original approach was not terrible. Sometimes, however, scientific <strong>progress</strong> is so clear that doing the same as in making the same choice is simply undesired. Which is what I discuss next. In these cases, doing exactly the same as the OAs is perfectly possible, but doing so would actually be bad form! xxx</p>
+<p>You might have decided to use a different population, such as nationality (which, as per above, might or might not mean you are still doing a replication). Clearly, replicating an OS which was done in Portugal with Portuguese materials with your Dutch speaking participants will give you a very high score on sameness, but would be a very bad idea. This means that you might need to do things in a different language than the OAs, which means you will have to find translated materials or possibly do the translation yourself.</p>
+<p>xxx A final instantation of the ambiguity of <em>same</em> is a result of the OS (probably) being set in a different time and place. In some situations, there is again the option of using the literal original material (same choice) or you might need to “translate” the study to a current, local context (same strategy).</p>
 <p>Even is the measure is perfectly fine, you might still not be off the hook. In some situations, you might need to “translate” the study to a current, local context</p>
 <ul>
 <li><p>Say you want to assess interests in sports in general and use a Flemish population. The OAs did their study in the 80s in the US. If the OS used a dropdown menu with popular sports and asked the participants to select which they like (to assess interests in sports in general), that list might represent popular US sports in the 80s. You might want to use popular sports in current-day Flanders!</p></li>
 <li><p>One of my students attempted to replicate a study from 1999 on the relationship between attachment styles and parasocial behavior. To assess parasocial behavior, the OAs made use of a questionnaire published in 1992 with items like “I think my favorite TV personality is like an old friend”. To a 2023 audience, this sentence probably reads like a question about your favourite gladiator, so the outdated term “TV personality” should be updated to current day celebrities and media personalities like influencers.</p></li>
 </ul>
-<p>^ These sorts of problems call for the use of positive or negative controls, or piloting.</p>
-<p>^ Also, there is a non-negligible chance that the OAs did something wrong or stupid (I should watch my language. Maybe I should go and read Section @sec-writing) when designing their study and analyzing their data so the OS suffers from serious methodologcal shortcomings. After all, they are human too!</p>
+<p>These sorts of problems call for the use of positive or negative controls, or piloting.</p>
+<p>Also, there is a non-negligible chance that the OAs did something wrong or stupid (I should watch my language. Maybe I should go and read <span class="quarto-unresolved-ref">?sec-writing</span>) when designing their study and analyzing their data so the OS suffers from serious methodologcal shortcomings. After all, they are human too!</p>
 <ul>
 <li><p>The OAs might have overlooked a confound.</p></li>
 <li><p>The OAs might have not used an appropriate measure</p></li>
@@ -470,39 +399,32 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><p>They could not correspond to the construct of interest</p></li>
 <li><p>They could not be appropriate for the population under study</p></li>
 <li><p>TODO: add example birthe</p></li>
-<li><p>In Sections @sec-reproducibility and @sec-checkingquality, I list some common statistical fallacies and mistakes, but obviously the catalogue is much larger.</p></li>
+<li><p>In <span class="quarto-unresolved-ref">?sec-reproducibility</span> and <span class="quarto-unresolved-ref">?sec-checkingquality</span>, I list some common statistical fallacies and mistakes, but obviously the catalogue is much larger.</p></li>
 </ul>
 <p>If this happened, it would be unwise to make the same mistake, especially if a better option is available. <em>They</em> may have done stupid things that are deeply flawed, but <em>you</em> are not making these <strong>errors</strong> that again.</p>
-<p>^ But even when the OAs didn’t do something wrong or stupid, there is no reason to just relax. Remember how I told you science progresses? I still stand behind that statement! Maybe, and more generously, what they did made perfect sense at the time of their study, but now we realize they were flawed.Not because what they did was good, you shouldn’t aim for better. Don’t let the good be the enemy of the better! So even if their design, materials, and analysis was appropriate, you migh want to look further so that your study reflects current best practices. For example, TODO: add example.</p>
-<ul>
-<li>For example, maybe the OS was done in a time where attention and manipulation checks weren’t customary. This does not mean your study should not include some (there are reasons, though, to not include it</li>
-</ul>
-<ol start="30" type="i">
-<li></li>
-</ol>
-<ul>
-<li>There are better stimuli, questionnaires, tools, techniques and statistical approaches available now.</li>
-</ul>
+<p>But even when the OAs didn’t do something wrong or stupid, there is no reason to just relax. Remember how I told you science progresses? I still stand behind that statement! Maybe, and more generously, what they did made perfect sense at the time of their study, but now we realize they were flawed.Not because what they did was good, you shouldn’t aim for better. Don’t let the good be the enemy of the better! So even if their design, materials, and analysis was appropriate, you migh want to look further so that your study reflects current best practices. For example, TODO: add example.</p>
+<p>For example, maybe the OS was done in a time where attention and manipulation checks weren’t customary. This does not mean your study should not include some (there are reasons, though, to not include it xxx)</p>
+<p>There are better stimuli, questionnaires, tools, techniques and statistical approaches available now.</p>
 </section>
 <section id="sec-nointerest" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="sec-nointerest"><span class="header-section-number">3.4</span> doing the same is not your current interest</h2>
-<p>^ Everybody is unique and, somewhat contradicting to that claim, you are no exception to that. So you might have slightly different interests than the OAs. Sometimes, you don’t want to do the same, because you are interested in something different than the OAs. Or, you might feel forced, by whatever academic pressure, to not “just” do a replication study because that is taken to mean by some people you have a boring, uncreative, nasty and kleptomanic personality. So maybe in your study, you <em>want</em> things to be different. As per above, the difference might be relevant enough to no longer count as a replication study.</p>
-<p>^ You might be interested in a different population. You could end up doing a study again (with the same research questions, materials, experimental design and analytic plan) but in a different population (e.g., with Europeans or Belgians instead of with Americans; or with golf players instead of with soccer players; and so on) or in a different field (e.g., in math education instead of in language education xxx; visual memory to auditory memory; from face-to-face impressions to online impressions xxx).</p>
+<p>Everybody is unique and, somewhat contradicting to that claim, you are no exception to that. So you might have slightly different interests than the OAs. Sometimes, you don’t want to do the same, because you are interested in something different than the OAs. Or, you might feel forced, by whatever academic pressure, to not “just” do a replication study because that is taken to mean by some people you have a boring, uncreative, nasty and kleptomanic personality. So maybe in your study, you <em>want</em> things to be different. As per above, the difference might be relevant enough to no longer count as a replication study.</p>
+<p>You might be interested in a different population. You could end up doing a study again (with the same research questions, materials, experimental design and analytic plan) but in a different population (e.g., with Europeans or Belgians instead of with Americans; or with golf players instead of with soccer players; and so on) or in a different field (e.g., in math education instead of in language education xxx; visual memory to auditory memory; from face-to-face impressions to online impressions xxx).</p>
 <ul>
 <li><p>The OAs investigated the mental health among professional soccer players and made their conclusion about soccer players (and not about sportsmen in general). You, on the other hand, might be interested to do the same study again with professional golf players and your conclusion will be about golfers (and not about sportsmen in general). That’s not replicating, despite doing most of the things exactly the same. xxx</p></li>
 <li><p>The OAs investigated the impact of various types of sex education in Portugal. You might be very interested in doing the same study in Belgium. Since at least the formal sex education in Portugal is organised differently than in Belgium, if you do the study again in Belgium, that’s not replicating, despite doing most of the things exactly the same. xxx</p></li>
 <li><p>The OAs studied young adults and found a relationship between social media use and loneliness. You do the same study again but in a general population or an elderly population or with kids. This might no longer count as a replication, depending on the extent to which the OAs stressed that their conclusion is limited to young adults. xxx</p></li>
 </ul>
-<p>^ Of course, changing the population of interest might mean you need to change other stuff. A survey targeted at soccer players most likely contains slightly different items than at golf players; doing a study with kids that invoked trauma using film clips should probably use different film clips to invoke trauma if it involves adults; etc</p>
-<p>^ You might be interested in a different approach: Does xxx only work with film clips or also with text xxx? Or does the crowd within effect gets bigger when the delay is longer?</p>
-<p>^ Maybe you want your study to be more informative than theirs. For example, you might want to include additional factors or variables that the OAs did not consider.</p>
+<p>Of course, changing the population of interest might mean you need to change other stuff. A survey targeted at soccer players most likely contains slightly different items than at golf players; doing a study with kids that invoked trauma using film clips should probably use different film clips to invoke trauma if it involves adults; etc</p>
+<p>You might be interested in a different approach: Does xxx only work with film clips or also with text xxx? Or does the crowd within effect gets bigger when the delay is longer?</p>
+<p>Maybe you want your study to be more informative than theirs. For example, you might want to include additional factors or variables that the OAs did not consider.</p>
 <ul>
 <li>For example, if the OA showed that self-compassion significantly predicted changes in depression symptoms, you might want to test that relation again using the same materials, procedure, and analyses, but additionally want to include stress as an additional predictor. In your analyses, however, you could also just do the original analysis with just self-compassion as a predictor. If you do so, your study will both be a replication and an extension. xxx</li>
 </ul>
 </section>
 <section id="ok-i-get-it.-can-we-wrap-up-please" class="level2" data-number="3.5">
 <h2 data-number="3.5" class="anchored" data-anchor-id="ok-i-get-it.-can-we-wrap-up-please"><span class="header-section-number">3.5</span> ok, i get it. can we wrap up, please?</h2>
-<p>^ So say you do a replication and the OAs were kind enough to share all their study materials and all their analysis code. This might sound like you have hit the replication jackpot! Your first instinct might be to just use all of that and call it a day. After all, the point is to do the same as what they did, right? I hope to have shown you that this is not always the best course of action, and that there might be reasons to do things differently.</p>
+<p>So say you do a replication and the OAs were kind enough to share all their study materials and all their analysis code. This might sound like you have hit the replication jackpot! Your first instinct might be to just use all of that and call it a day. After all, the point is to do the same as what they did, right? I hope to have shown you that this is not always the best course of action, and that there might be reasons to do things differently.</p>
 <ul>
 <li><p>You might want to go and look for the “official” version of the stimulus set, survey or questionnaire (because the OAs might have deviated from this version, for no good or no justified reason).</p></li>
 <li><p>You might want to look for different existing materials than the materials shared by the OAs (because there might be better materials available by now, or they were constrained by practical reasons for using a lesser version and you are not).</p></li>
@@ -511,8 +433,8 @@ document.addEventListener("DOMContentLoaded", function () {
 <li><p>You still might wish to write your own code (because the OAs might have made a mistake in theirs or might not have used the best analysis available).</p></li>
 </ul>
 <p>So much for “just doing the same”. So while in an ideal world, you can simply do <em>everything just like the original authors did</em>, I hope to have warned you by now that often, it won’t be that simple.</p>
-<p>^ Also, note that there are many aspects to a study. Your study might be the exact same in the materials used, but not in the design. Or you might test the same hypothesis, but using different analyses. All this leads to a vast array of types of replications. But these fine grained distinctions are not only hard to make but also relatively uninteresting. The most important take-away is 1) that you should not panic if you can’t do things the same 2) that doing the same is not always a good, let alone the best, idea</p>
-<p>^ Since we are on the topic of warnings, here’s another warning you didn’t know you needed. As HRSS writes, “Ideally, being replicated would be an honor for authors since other researchers deem their findings important but a failed replication could potentially harm the reputation of the original and increase distrust towards them among their peers”. So while you think you are doing a service to science, not everybody will agree. Some people might consider you a nagging, rude, wasteful creature lacking any creativity. There’s not much that can be done about it, but it’s good to keep that in the back of your mind.</p>
+<p>Also, note that there are many aspects to a study. Your study might be the exact same in the materials used, but not in the design. Or you might test the same hypothesis, but using different analyses. All this leads to a vast array of types of replications. But these fine grained distinctions are not only hard to make but also relatively uninteresting. The most important take-away is 1) that you should not panic if you can’t do things the same 2) that doing the same is not always a good, let alone the best, idea</p>
+<p>Since we are on the topic of warnings, here’s another warning you didn’t know you needed. As HRSS writes, “Ideally, being replicated would be an honor for authors since other researchers deem their findings important but a failed replication could potentially harm the reputation of the original and increase distrust towards them among their peers”. So while you think you are doing a service to science, not everybody will agree. Some people might consider you a nagging, rude, wasteful creature lacking any creativity. There’s not much that can be done about it, but it’s good to keep that in the back of your mind.</p>
 
 
 </section>

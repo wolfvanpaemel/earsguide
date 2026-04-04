@@ -1,87 +1,87 @@
 # Some criteria for selecting a replication study {#sec-somecriteria}
 
-\^ As each study result is just a single data point for a future meta-analysis, every study is worthy of replication. Further, even if there would be absolutely no scientific benefit of doing a replication (for example, because there has already been a significant amount of replication studies, or the finding is clearly bogus), you will hopefully learn a thing or two while doing a replication. That means that basically any study serves as a good candidate study for replication, especially for a student project.
+As each study result is just a single data point for a future meta-analysis, every study is worthy of replication. Further, even if there would be absolutely no scientific benefit of doing a replication (for example, because there has already been a significant amount of replication studies, or the finding is clearly bogus), you will hopefully learn a thing or two while doing a replication. That means that basically any study serves as a good candidate study for replication, especially for a student project.
 
-\^ That being said, some studies are better candidates for replication than others. In this section, I list some criteria for choosing useful candidate studies.
+That being said, some studies are better candidates for replication than others. In this section, I list some criteria for choosing useful candidate studies.
 
-\^ Don't let this list confuse you: a good replication study does *not* need to meet *all* of these criteria. These are just some things to keep in mind when searching for good candidate studies to replicate. Hell, sometimes these criteria might even *contradict* each other: high impact studies are in need of replication, and studies with limited evidence are in need of replication as well. But high impact studies (hopefully) are high in evidentiary values, so there's that.
+Don't let this list confuse you: a good replication study does *not* need to meet *all* of these criteria. These are just some things to keep in mind when searching for good candidate studies to replicate. Hell, sometimes these criteria might even *contradict* each other: high impact studies are in need of replication, and studies with limited evidence are in need of replication as well. But high impact studies (hopefully) are high in evidentiary values, so there's that.
 
-\^ All these criteria aside, you should make sure to choose something that interests *you*. What would you like to tell your family, friends, dates, and cats when they ask you what you are doing research about?
+All these criteria aside, you should make sure to choose something that interests *you*. What would you like to tell your family, friends, dates, and cats when they ask you what you are doing research about?
 
-\^ While not strictly necessary, it is advised to find something that has been published in a decent scientific journal. In general, preprints, white papers, master theses, internal reports, and so on are typically not good candidates. Also, try to avoid papers published in journals that feature on [[Beall's List -- of Potential Predatory Journals and Publishers]{.underline}](https://beallslist.net/). It might also be good to check whether it is retracted. Ideally, this should be clear from the online version, but it might be wise to double check in the retraction watch database [[Retraction Watch Database]{.underline}](https://retractiondatabase.org/RetractionSearch.aspx?). Whether or not a retracted study is worthy of replication depends on the reason for retraction. If it was retracted because of plagiarism, it might still make for a good replication candidate.
+While not strictly necessary, it is advised to find something that has been published in a decent scientific journal. In general, preprints, white papers, master theses, internal reports, and so on are typically not good candidates. Also, try to avoid papers published in journals that feature on [[Beall's List -- of Potential Predatory Journals and Publishers]{.underline}](https://beallslist.net/). It might also be good to check whether it is retracted. Ideally, this should be clear from the online version, but it might be wise to double check in the retraction watch database [[Retraction Watch Database]{.underline}](https://retractiondatabase.org/RetractionSearch.aspx?). Whether or not a retracted study is worthy of replication depends on the reason for retraction. If it was retracted because of plagiarism, it might still make for a good replication candidate.
 
 ## feasibility {#sec-feasibility}
 
-\^ Obviously, if you want to do a replication it should of course be something that is possible to do a replication study on.
+Obviously, if you want to do a replication it should of course be something that is possible to do a replication study on.
 
 -   As explained above, some effects are very contextual and time-dependent. Doing this kind of studies again probably means you are not doing a replication study, but rather a follow-up or extension study instead (see above).
 
 -   Further, as per above, some studies might be impossible to replicate because it is too unclear from the report what the OAs did
 
-\^ The study should of course be feasible within the context of your research (such as a master thesis)
+The study should of course be feasible within the context of your research (such as a master thesis)
 
-\^ in terms of experimental setup and design: e.g., eye-tracking requires a lot of technical expertise and longitudinal studies a lot of time, so both are hard to do.
+- in terms of experimental setup and design: e.g., eye-tracking requires a lot of technical expertise and longitudinal studies a lot of time, so both are hard to do.
 
-\^ in terms of participant pool: e.g., clinical, developmental, cross-cultural samples are harder to collect than general population samples. Per above (Section XXX), the nationality of the participants in the OS might or might not be a feasibility concern, depending on whether the nationality of the participants in the sample of the OS was a crucial aspect in the study and its conclusion (and on whether you really want to do a replication and not an extension).
+- in terms of participant pool: e.g., clinical, developmental, cross-cultural samples are harder to collect than general population samples. Per above (Section XXX), the nationality of the participants in the OS might or might not be a feasibility concern, depending on whether the nationality of the participants in the sample of the OS was a crucial aspect in the study and its conclusion (and on whether you really want to do a replication and not an extension).
 
-> \^ in terms of sample size: as your replication study is ideally informative, you will probably need a large sample size to reach either high power or high precision. This is either easy (if you are interested in a general population and your study involves a short, simple, survey) or hard (e.g., children from a single parent diagnosed with ADHD) to come by.
->
-> \^ in terms of expertise and available technical equipment. e.g., don't start just doing an MRI study if you don't know how and don't have the machines. Really.
->
-> \^ in terms of time. like, obvi.
+- in terms of sample size: as your replication study is ideally informative, you will probably need a large sample size to reach either high power or high precision. This is either easy (if you are interested in a general population and your study involves a short, simple, survey) or hard (e.g., children from a single parent diagnosed with ADHD) to come by.
+
+- in terms of expertise and available technical equipment. e.g., don't start just doing an MRI study if you don't know how and don't have the machines. Really.
+
+- in terms of time. like, obvi.
 
 ## questionability {#sec-questionability}
 
-\^ The result of the OS is uncertain, questionable or controversial
+The result of the OS is uncertain, questionable or controversial
 
-> \^ studies with low evidentiary value/strength of evidence/degree of evience/for which there is limited evidence xxx are more in need of replication than others
+- studies with low evidentiary value/strength of evidence/degree of evience/for which there is limited evidence xxx are more in need of replication than others
 
-\^ replicating the Stroop effect is (by now) a waste of time from a scientific point of view (though could be fun and a good learning experience) given there is solid evidence for it.
+- replicating the Stroop effect is (by now) a waste of time from a scientific point of view (though could be fun and a good learning experience) given there is solid evidence for it.
 
-> \^ here are a few red flags pointing to low evidentiary value: it hasn't been (succesfully) replicated before; it contradicts other findings; it is based on a small sample size; it includes post-hoc sub-group analyses; the OAs have a COI (see also Part C in general and Section \@sec-checkingquality in particular); etc
+- here are a few red flags pointing to low evidentiary value: it hasn't been (succesfully) replicated before; it contradicts other findings; it is based on a small sample size; it includes post-hoc sub-group analyses; the OAs have a COI (see also Part C in general and Section \@sec-checkingquality in particular); etc
 
-\^ However, they shouldn't be too questionable either!
+However, they shouldn't be too questionable either!
 
-> \^ something that is scientifically and methodologically valid, is well designed and correctly reported (reproducibility; see below)
+- something that is scientifically and methodologically valid, is well designed and correctly reported (reproducibility; see below)
 
-\^ it's a waste of time to redo a bad experiment or to try to redo a study for which the effect was a clear fluke
+- it's a waste of time to redo a bad experiment or to try to redo a study for which the effect was a clear fluke
 
-\^ it will impair publication chances. even the best replication of a bad study will have a hard time to get published
+- it will impair publication chances. even the best replication of a bad study will have a hard time to get published
 
-\^ unless, of course, you fix all of this and you do a constructive replication (see \@sec-areplication). If you can think you can improve the flaws (e.g., using better measures, doing better analyses, removing confounds etc), you can use a bad study as an inspiration (but it might no longer be a replication study).
+- unless, of course, you fix all of this and you do a constructive replication (see @sec-areplication). If you can think you can improve the flaws (e.g., using better measures, doing better analyses, removing confounds etc), you can use a bad study as an inspiration (but it might no longer be a replication study).
 
-> \^ but still, whether it is worth doing a constructive replicationdepends a bit on the hypothesis. If the hypothesis is clearly silly, and the support for the silly hypothesis was based on scientific mistakes, just pointing out these mistakes is enough to kill the study and a costly replication is not needed. However, if the hypothesis is not silly, and the original result was due to a mistake, it is worthwhile to do the study again (and fixing the mistake).
+- but still, whether it is worth doing a constructive replicationdepends a bit on the hypothesis. If the hypothesis is clearly silly, and the support for the silly hypothesis was based on scientific mistakes, just pointing out these mistakes is enough to kill the study and a costly replication is not needed. However, if the hypothesis is not silly, and the original result was due to a mistake, it is worthwhile to do the study again (and fixing the mistake).
 
 ## impact {#sec-impact}
 
-\^ The result of the OS is important and has been shown to be impactful, important, relevant or influential;
+The result of the OS is important and has been shown to be impactful, important, relevant or influential;
 
-\^ is foundational to theory
+- is foundational to theory
 
-> \^ is foundational to (clinical) practice or policy
->
-> \^ is taught in courses or has made it into textbooks
->
-> \^ is published in a prestigious journal (such as *Science*, *Nature*, *PNAS*, *Psychological Science*, *Journal of Personality and Social Psychology*, etc)
->
-> \^ has gained a lot of (international) press coverage
->
-> \^ is the topic of a recent dispute
->
-> \^ is highly cited
->
-> \^ has high online impact (e.g., see altmetric)
->
-> \^ has a lot of impact on e.g. policy or in other applied settings (e.g. therapy)
->
-> \^ etc
+- is foundational to (clinical) practice or policy
+
+- is taught in courses or has made it into textbooks
+
+- is published in a prestigious journal (such as *Science*, *Nature*, *PNAS*, *Psychological Science*, *Journal of Personality and Social Psychology*, etc)
+
+- has gained a lot of (international) press coverage
+
+- is the topic of a recent dispute
+
+- is highly cited
+
+- has high online impact (e.g., see altmetric)
+
+- has a lot of impact on e.g. policy or in other applied settings (e.g. therapy)
+
+- etc
 
 ## other practical considerations {#sec-other}
 
-\^ At some point, you might need to contact the OAs. If the OS is fairly recent, the OAs are more likely to be alive or active, which I heard considerably facilitates communication.
+At some point, you might need to contact the OAs. If the OS is fairly recent, the OAs are more likely to be alive or active, which I heard considerably facilitates communication.
 
-\^ Further, you might want to choose a study that has open data. This will be useful for many reasons, such as checking reproducibility (see \@sec-reproducibility), for testing your own analyses, and for doing a power analysis (see \@sec-desingingstudy).
+Further, you might want to choose a study that has open data. This will be useful for many reasons, such as checking reproducibility (see @sec-reproducibility), for testing your own analyses, and for doing a power analysis (see @sec-desingingstudy).
 
-\^ If the OS has open materials (i.e., stimuli, survey items, etc), part of the *doing the same* problem is solved (or can be, at least, per the caveats of Section \@sec-areplication).
+If the OS has open materials (i.e., stimuli, survey items, etc), part of the *doing the same* problem is solved (or can be, at least, per the caveats of @sec-areplication).
 
-\^ However, both these criteria go both ways. If the OS meets these criteria, it will make your life as a replicator easy, or at least easier. On the other hand, from a broader, field-wide perspective, replications are more useful and informative when the above criteria have *not* been met. For example, if a study does not have open material, you will need to find or create your own, which sucks, but the net result is that, if you then share the materials with the world, there are now open materials for the study. It is up to you if you want to take one for Team Science or not.
+However, both these criteria go both ways. If the OS meets these criteria, it will make your life as a replicator easy, or at least easier. On the other hand, from a broader, field-wide perspective, replications are more useful and informative when the above criteria have *not* been met. For example, if a study does not have open material, you will need to find or create your own, which sucks, but the net result is that, if you then share the materials with the world, there are now open materials for the study. It is up to you if you want to take one for Team Science or not.

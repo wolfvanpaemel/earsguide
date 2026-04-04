@@ -74,38 +74,6 @@ ul.task-list li input[type="checkbox"] {
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  function normalize(href) {
-
-    const u = new URL(href, window.location.href);
-
-    return u.pathname
-
-      .replace(/index\.html$/, "")
-
-      .replace(/\/+$/, "/");
-
-  }
-
-
-
-  const homeLink =
-
-    document.querySelector("#quarto-sidebar-header a") ||
-
-    document.querySelector(".sidebar-header a") ||
-
-    document.querySelector(".sidebar-title a");
-
-
-
-  if (!homeLink) return;
-
-
-
-  const homePath = normalize(homeLink.getAttribute("href"));
-
-
-
   document
 
     .querySelectorAll("#quarto-sidebar .sidebar-item-container")
@@ -118,7 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-      if (normalize(a.getAttribute("href")) === homePath) {
+      const text = a.textContent.replace(/\s+/g, " ").trim();
+
+      if (text === "Preface") {
 
         item.style.display = "none";
 
@@ -268,38 +238,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/repintro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">General</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/designings.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Designing your study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/designinga.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Desiging your analysis</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/prereg.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Preregistering your study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/collecting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Collecting your data</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/interpreting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Interpreting your result</span></span></a>
+  <a href="../chapters/todo2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -315,20 +255,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/writing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Writing up your evaluation and replication study</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/publishing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Publishing</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../chapters/sharing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Sharing</span></span></a>
+  <a href="../chapters/todo3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -344,8 +272,8 @@ document.addEventListener("DOMContentLoaded", function () {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../chapters/todo2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
+  <a href="../chapters/todo4.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Work in progress</span></span></a>
   </div>
 </li>
       </ul>
@@ -380,42 +308,42 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>^ So, as per above, there are many reasons why you would end up not doing the same as the OAs. Does this mean you will never ever be able to do a replication study? Well, here is where things get a bit weird. Despite things not being exactly the same in your study, it could still be same enough to count as a replication study. The prerequisite is that the differences that exist between your study and the OS should not influence the result.</p>
-<p>^ Basically, what you need to ask yourself is: Do I try to answer the same question as the OA? Or, put differently, imagine you have an answer to your question, will this answer speak to, positively or negatively, the conclusion of the OS?</p>
-<p>^ Well, that’s a relief. But how do you know whether these differences will influence the result? Simple, you don’t! Ideally the OAs have included a Constraint on Generality (CoG) statement, and clearly indicated whether their result is, for example, only expected to hold in Catholic countries (and not in Islamic ones) and with verbal stimuli (and not with text stimuli). Alternatively or additionally, their work might be informed by a theory which delineates those boundaries. Often, however, there is neither a CoG nor clear theory, so you should go by your own reasoning and gut feeling. With a bit of luck read the title, abstract and conclusion of the OS very carefully should reveal what <em>they</em> find important. Barring all that, you will need to rely on your one judgement.</p>
-<p>^ The guiding principle is as follows: If (as dictated by a CoG, a theory or a conclusion) the claim you can (potentially) make based on your study is different than the conclusion from the OS, or, put differently, if your result has the potential to speak against the result of the OS, the difference between your study and the OS is important and your study no longer counts as a replication. If finding a different conclusion than the OS would speak (badly) to the OS, you are doing a replication. If finding a different result would not say anything at all about the correctness, truthfulness, trustworthiness, veracity or another fancy word you are not doing a replication but something else.</p>
-<p>^ Let’s look at some examples</p>
-<p>^ You might also be sampling from a different <strong>population</strong>. The question is whether this difference is relevant, for which you can, ideally, consult CoG, theory, or whatever the OA concluded.</p>
+<p>So, as per above, there are many reasons why you would end up not doing the same as the OAs. Does this mean you will never ever be able to do a replication study? Well, here is where things get a bit weird. Despite things not being exactly the same in your study, it could still be same enough to count as a replication study. The prerequisite is that the differences that exist between your study and the OS should not influence the result.</p>
+<p>Basically, what you need to ask yourself is: Do I try to answer the same question as the OA? Or, put differently, imagine you have an answer to your question, will this answer speak to, positively or negatively, the conclusion of the OS?</p>
+<p>Well, that’s a relief. But how do you know whether these differences will influence the result? Simple, you don’t! Ideally the OAs have included a Constraint on Generality (CoG) statement, and clearly indicated whether their result is, for example, only expected to hold in Catholic countries (and not in Islamic ones) and with verbal stimuli (and not with text stimuli). Alternatively or additionally, their work might be informed by a theory which delineates those boundaries. Often, however, there is neither a CoG nor clear theory, so you should go by your own reasoning and gut feeling. With a bit of luck read the title, abstract and conclusion of the OS very carefully should reveal what <em>they</em> find important. Barring all that, you will need to rely on your one judgement.</p>
+<p>The guiding principle is as follows: If (as dictated by a CoG, a theory or a conclusion) the claim you can (potentially) make based on your study is different than the conclusion from the OS, or, put differently, if your result has the potential to speak against the result of the OS, the difference between your study and the OS is important and your study no longer counts as a replication. If finding a different conclusion than the OS would speak (badly) to the OS, you are doing a replication. If finding a different result would not say anything at all about the correctness, truthfulness, trustworthiness, veracity or another fancy word you are not doing a replication but something else.</p>
+<p>Let’s look at some examples xxx</p>
+<p>You might also be sampling from a different <strong>population</strong>. The question is whether this difference is relevant, for which you can, ideally, consult CoG, theory, or whatever the OA concluded.</p>
 <ul>
 <li><p>For some studies (say, Stroop), you don’t expect population or nationality to matter. So if, say, the original participants come from the US and you intend to collect a Belgian sample, you are still doing a replication study.</p></li>
 <li><p>For other studies, population or nationality might be an important aspect of the original study. For example, with a study on attitudes towards controversial ethical topics, you might expect to find a different result in the US compared to Belgium. If you do the same US study in a new, say, Belgian, sample, you are no longer doing a replication study. xxx or with students in dorms only xxx liesl</p></li>
-<li><p>A study that investigated the relationship between religiosity and fertility status, and sampled participants in a predominantly Catholic population might conclude that “<mark>women become more religious when ovulating</mark>” or it might conclude that “<mark>women become more religious when ovulating</mark> among Catholics”. If you do the study again in a mostly Islamic population, it will be a replication with the former but it will not be a replication with the latter conclusion. The reason is that if you find no evidence for a relation between religiosity and ovulation in your sample, you would question the first conclusion but not the second conclusion of the OS.</p></li>
+<li><p>A study that investigated the relationship between religiosity and fertility status, and sampled participants in a predominantly Catholic population might conclude that “women become more religious when ovulating” or it might conclude that “Catholic women become more religious when ovulating”. If you do the study again in a mostly Islamic population, it will be a replication with the former but it will not be a replication with the latter conclusion. The reason is that if you find no evidence for a relation between religiosity and ovulation in your sample, you would question the first conclusion but not the second conclusion of the OS.</p></li>
 </ul>
-<p>^ If the conclusion contains (or should contain!) a limiting statement like “among US university students living in dorms”, and you do the same study again at home which is not the US, your study no longer counts as a replication. Instead, you are doing an <strong>extension</strong> study or a <strong>generalizability</strong> study.</p>
-<p>^ So if the conclusion is crucially dependent on a population you don’t have reasonable access to, doing a replication might be infeasible at best and impossible at worst. Even if you live in Belgium and it is important that your population consists of US students in dorms or women in Islamic country, it is possible to travel, it is probably not so efficient way of spending time and money.</p>
-<p>^ What about <strong>time</strong>? Again, whether or not that difference is important depends. Replication studies make the tacit assumption that the world we study is relatively stable. If you do a study again in a new time period where things might have reasonably changed, it is no longer a replication study. Again, the trick is to look at the CoG, the underlying theory (if any), or to carefully read the conclusion. While you would hope that the population, if important, will be part of the conclusion (e.g.&nbsp;“among young religious women”), time restrictions are seldom made explicit in a conclusion, even if it is clear that the OAs are just taking a snapshot of a state of affairs. Some conclusions are, by design, time specific, even if they are not explicitly specified as such.</p>
+<p>If the conclusion contains (or should contain!) a limiting statement like “among US university students living in dorms”, and you do the same study again at home which is not the US, your study no longer counts as a replication. Instead, you are doing an <strong>extension</strong> study or a <strong>generalizability</strong> study.</p>
+<p>So if the conclusion is crucially dependent on a population you don’t have reasonable access to, doing a replication might be infeasible at best and impossible at worst. Even if you live in Belgium and it is important that your population consists of US students in dorms or women in Islamic country, it is possible to travel, it is probably not so efficient way of spending time and money.</p>
+<p>What about <strong>time</strong>? Again, whether or not that difference is important depends. Replication studies make the tacit assumption that the world we study is relatively stable. If you do a study again in a new time period where things might have reasonably changed, it is no longer a replication study. Again, the trick is to look at the CoG, the underlying theory (if any), or to carefully read the conclusion. While you would hope that the population, if important, will be part of the conclusion (e.g.&nbsp;“among young religious women”), time restrictions are seldom made explicit in a conclusion, even if it is clear that the OAs are just taking a snapshot of a state of affairs. Some conclusions are, by design, time specific, even if they are not explicitly specified as such.</p>
 <ul>
 <li><p>When Stroop (1935) TODO add ref concluded that “the interference of conflicting word stimuli upon the time for naming 100 colors ... caused an increase of ... the normal time for naming colors”, he did not just forget to add “in 1935” to this conclusion. The reason he didn’t add it to his conclusion was because he assumed that the Stroop effect in the near future should not be different than when it was originally tested in 1935. Since the original conclusion did not have nor need “in 1935”, doing the study again today would count as a replication.</p></li>
 <li><p>In 2015, we replicated a study done by Wicherts et al.&nbsp;in 2006 TODO add ref, who studied the willingness of researchers to share their data and found a rather low willingness. Our study TODO add ref was done roughly 10 years after the original one, and I was hoping that we would <em>not</em> find the same result, but that the sharing rate has increased since the OS. The fact that we found a higher sharing rate does not invalidate the conclusion of the OS at all! Rather, it just means that things are different at the time of our study than at the time of the OS. That is because although the conclusion of the OS was “that 73% of the authors did not share their data”, tacitly, the conclusion was “that 73% of the authors did not share their data <em>in 2016</em>”. Our study had no capacity to change that original conclusion, so our study was not a replication study.</p></li>
 </ul>
-<p>^ If you reasonably think the conclusion should be augmented with “in 1999”, and you do the same study again at a (inevitably) later time, your study again no longer counts as a replication. It is more useful to think of the study as a <strong>follow-up</strong> study rather than as a replication study.</p>
-<p>^ As explained above, some studies focus on something that is very context dependent for which the <strong>context</strong> is hard to recreate.</p>
+<p>If you reasonably think the conclusion should be augmented with “in 1999”, and you do the same study again at a (inevitably) later time, your study again no longer counts as a replication. It is more useful to think of the study as a <strong>follow-up</strong> study rather than as a replication study.</p>
+<p>As explained above, some studies focus on something that is very context dependent for which the <strong>context</strong> is hard to recreate.</p>
 <ul>
 <li>Take, for example, a study on the mental health during the March 2020 lockdown in Belgium. It will be hard to recreate the exact circumstances in Belgium in March 2020. Even if you are “lucky” to live through another lockdown, and study mental health again in Belgium, your study will probably not be a replication. Each lockdown is different, in terms of build-up, severity of the disease, groups of people being most affected, regulations, measures and policies etc. If you are interested in doing this study again, you are probably doing a follow-up or an extension study or a generalization study.</li>
 </ul>
-<p>^ So when population, time and context are an important aspect of the study (and you don’t have access to the original population because of, for example, geography), it might be impossible (for you) to do a replication study.</p>
-<p>^ What if you can’t use the same equipment as the OAs? Again, whether your study is a replication or or not depends again on the same reasoning as discussed above.</p>
+<p>So when population, time and context are an important aspect of the study (and you don’t have access to the original population because of, for example, geography), it might be impossible (for you) to do a replication study.</p>
+<p>What if you can’t use the same equipment as the OAs? Again, whether your study is a replication or or not depends again on the same reasoning as discussed above.</p>
 <ul>
 <li><p>If you do a study again but, for some technical reason, you use pictures instead of film clips to invoke trauma, and 1) the conclusion of the OAs did not mention film clips and 2) the theoretical framework used by the OAs does not mention film clips, your study still counts as a replication (provided that you can show that the pictures did invoke trauma).</p></li>
 <li><p>If, on the other hand, the OAs have clearly indicated (in their CoG, or their conclusion, or by the theory that they use) that their finding is restricted to film clips, you are doing not doing a replication when you use pictures.</p></li>
 </ul>
-<p>^ If the conclusion contains (or should contain!) a limiting statement like “using Tetris (Version 1.2.1; Blue Planet Software, 2007)”, and you do the same study again but you no longer have access to that version of Tetris, your study no longer counts as a replication but rather is an <strong>extension</strong> study or a <strong>generalizability</strong> study. If it does not contain the statement, and you find a version of Tetris with the same characteristics as Version 1.2.1, you are still doing a replication, which could be called a <strong>conceptual replication</strong>.</p>
-<p>^ What if the OAs collected data during summer and you do a winter data collection, this might or might not count as a replication. As HRRS notes, if your study is on color perception, you are replicating but if it is about tea preferences, it is not nut rather a xxxx xxx goeie plek xxx Again, this would depend on COG, theory, writing xxx</p>
-<p>^ Remember that you will often be confronted with the problem of making the same choice vs following the same strategy? The good news is that, whatever you do, you will probably be replicating. If you (mostly) make the same choices, your study is a <strong>direct</strong> or <strong>close</strong> or <strong>exact replication</strong>. If you follow the same strategy as the OAs, but do not make the same exact choices, and if the resulting differences are not expected to be relevant to the conclusion, you are doing a <strong>conceptual replication</strong> (see LeBel et al.&nbsp;2018 xxx, especially their Figure 1) TODO add ref. How many differences there should be to jump from a direct to a conceptual replication (e.g., if the authors forgot to include an item of a 12 item questionnaire, and you use all 12 items instead of their 11) is a debate I rather not go into, because it doesn’t really matter all that much.</p>
+<p>If the conclusion contains (or should contain!) a limiting statement like “using Tetris (Version 1.2.1; Blue Planet Software, 2007)”, and you do the same study again but you no longer have access to that version of Tetris, your study no longer counts as a replication but rather is an <strong>extension</strong> study or a <strong>generalizability</strong> study. If it does not contain the statement, and you find a version of Tetris with the same characteristics as Version 1.2.1, you are still doing a replication, which could be called a <strong>conceptual replication</strong>.</p>
+<p>What if the OAs collected data during summer and you do a winter data collection, this might or might not count as a replication. As HRRS notes, if your study is on color perception, you are replicating but if it is about tea preferences, it is not nut rather a xxxx xxx goeie plek xxx Again, this would depend on COG, theory, writing xxx</p>
+<p>Remember that you will often be confronted with the problem of making the same choice vs following the same strategy? The good news is that, whatever you do, you will probably be replicating. If you (mostly) make the same choices, your study is a <strong>direct</strong> or <strong>close</strong> or <strong>exact replication</strong>. If you follow the same strategy as the OAs, but do not make the same exact choices, and if the resulting differences are not expected to be relevant to the conclusion, you are doing a <strong>conceptual replication</strong> (see LeBel et al.&nbsp;2018 xxx, especially their Figure 1) TODO add ref. How many differences there should be to jump from a direct to a conceptual replication (e.g., if the authors forgot to include an item of a 12 item questionnaire, and you use all 12 items instead of their 11) is a debate I rather not go into, because it doesn’t really matter all that much.</p>
 <p>xxx vb van TV personality xxx wat is het als je het niet aanpast? xxx</p>
-<p>^ Correcting stuff also means you can still do a replication, despite not doing everything the same. If you have in the same sense improved the original study, you might want to pat yourself on the back and buzz around that you did a <strong>constructive replication</strong>.</p>
-<p>^ If you do everything the same except e.g.&nbsp;the population (e.g golf players instead of soccer players), it is reasonable to assume this change of population might make the results different, your study is no longer a replication but an extension of generalizability, or might just end up being a <strong>new study</strong> altogether (which was heavily inspired by the OS).</p>
-<p>^ Imagine you do everything the same but add a covariate. <mark>In your analyses, however, you could also just do the original analysis with just original covariate as a predictor. If you do so, your study will both be a replication and an extension.</mark></p>
+<p>Correcting stuff also means you can still do a replication, despite not doing everything the same. If you have in the same sense improved the original study, you might want to pat yourself on the back and buzz around that you did a <strong>constructive replication</strong>.</p>
+<p>If you do everything the same except e.g.&nbsp;the population (e.g golf players instead of soccer players), it is reasonable to assume this change of population might make the results different, your study is no longer a replication but an extension of generalizability, or might just end up being a <strong>new study</strong> altogether (which was heavily inspired by the OS).</p>
+<p>Imagine you do everything the same but add a covariate. In your analyses, however, you could also just do the original analysis with just original covariate as a predictor. If you do so, your study will both be a replication and an extension.</p>
 
 
 

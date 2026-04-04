@@ -87,3 +87,5 @@ xxx do better structure xxx like aline wicherts xxx
 -   if possible, discuss the expected impact these differences could have on the replication results.
 
 \^ When writing the results, it might or might not be a good idea to present your results (both descriptive and inferential) next to the OS's results directly, to facilitate comparison. You could consider adding a table comparing the results of the OS and the results of your replication study.
+
+Remember how important the CoG was for the OS? When your study is done, you have become an OA yourself, so your CoG might matter for other, future researchers looking into your work. So, make sure to include a discussion of the CoG in your paper, and how it compares to the CoG of the OS.
