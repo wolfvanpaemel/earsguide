@@ -21,13 +21,13 @@ Not that this is the terminology I will stick to in these notes, but
 keep in mind that conventions differ across fields, disciplines, time,
 researchers and vibes. For example, when in 2105 200 researchers
 (including myself) replicated 100 studies, they collectively thought
-they were [[Estimating the reproducibility of psychological science]{.underline}](https://www.science.org/doi/10.1126/science.aac4716)]. 
+they were [[Estimating the reproducibility of psychological science]{.underline}](https://www.science.org/doi/10.1126/science.aac4716), while in fact they were checking replicability. 
 
 Another terminological confusion relates to the sentence "Study X has
 been replicated". Typically, it just means that someone has tried to do
 the study again. It doesn't say anything about the results that someone
 has found. When that someone found the same results (by whatever
-criterion; see Section XXX), you would read "Study X was successfully
+criterion; see \@sec-designinganalysis), you would read "Study X was successfully
 replicated", and if the results were different, you would read "Study X
 failed to replicate". Somehow, i would interpret "Study X has been
 reproduced" as "Study X has been successfully reproduced" but it might

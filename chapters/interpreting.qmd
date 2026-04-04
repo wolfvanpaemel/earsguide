@@ -10,4 +10,4 @@
 
 -   If you come up with a hidden moderator to explain the different result, try to turn it into a testable hypothesis that you then recommend as a suggestion for future research. If possible, discuss how the known and surprising differences with the original study might have influenced the results. How important are the (inevitable) differences between your study and the original one? And is it possible, feasible, and interesting to test this?
 
--   fig 4.2 en 7.1 xxxx
+<!-- todo later-   fig 4.2 en 7.1 xxxx-->

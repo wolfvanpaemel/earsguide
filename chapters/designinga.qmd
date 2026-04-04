@@ -93,9 +93,8 @@ inconclusive).
 \^ Well, like with everything, it depends how you measure and define
 success.
 
-Here is an overwhelmingly large bunch of ways you could do that
-[[http://rachelheyard.com/reproducibility_metrics/#table]{.underline}](http://rachelheyard.com/reproducibility_metrics/#table).
-Among all of these variants, these two stand out:
+Here is an you could do that
+[[overwhelmingly large bunch of ways]{.underline}](http://rachelheyard.com/reproducibility_metrics/#table) you could do that. Among all of these variants, these two stand out:
 
 - p-value based: Do you find a significant result when the OAs did, in
   the same direction?

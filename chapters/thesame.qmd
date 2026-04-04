@@ -1,7 +1,7 @@
 # The same? {#sec-thesame}
 
-xxx a bit like correcting bugs vs adding features in software
-development
+<!-- todo later xxx a bit like correcting bugs vs adding features in software
+development-->
 
 \^ While the idea of *doing everything the same way the original
 authors* *did* seems ideal (at least in terms of deciding what to do),
