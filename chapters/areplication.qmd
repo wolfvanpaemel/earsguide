@@ -1,6 +1,6 @@
 # A replication? {#sec-areplication}
 
-\^ Let's start by discussing some terminology
+Let's start by discussing some terminology
 
 - A **replication** of a result involves collecting new data in the same
   design and running the same analyses on the **newly collected data**
@@ -17,14 +17,13 @@
   code either self-written or provided by the original researchers, or
   something in between).
 
-\^ Not that this is the terminology I will stick to in these notes, but
+Not that this is the terminology I will stick to in these notes, but
 keep in mind that conventions differ across fields, disciplines, time,
 researchers and vibes. For example, when in 2105 200 researchers
 (including myself) replicated 100 studies, they collectively thought
-they were [Estimating the reproducibility of psychological science
-[[https://www.science.org/doi/10.1126/science.aac4716]{.underline}](https://www.science.org/doi/10.1126/science.aac4716)]{.mark}
+they were [[Estimating the reproducibility of psychological science]{.underline}](https://www.science.org/doi/10.1126/science.aac4716)]. 
 
-\^ Another terminological confusion relates to the sentence "Study X has
+Another terminological confusion relates to the sentence "Study X has
 been replicated". Typically, it just means that someone has tried to do
 the study again. It doesn't say anything about the results that someone
 has found. When that someone found the same results (by whatever
@@ -34,7 +33,7 @@ failed to replicate". Somehow, i would interpret "Study X has been
 reproduced" as "Study X has been successfully reproduced" but it might
 be just me.
 
-\^ So, basically, when you do a replication, you will be doing an
+So, basically, when you do a replication, you will be doing an
 earlier study again. Let\'s introduce some more terminology. The study
 you will do again aka replicate will be referred to as *the original
 study (OS)*, and its authors as, wait for it, *the original authors
