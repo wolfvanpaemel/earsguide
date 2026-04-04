@@ -4,6 +4,7 @@
 book:
   title: "Evaluating and replicating studies: A practical guide"
   author: "wolf vanpaemel"
+  homepage: index.md
   chapters:
     - index.md
     - part: "PREFACE"
