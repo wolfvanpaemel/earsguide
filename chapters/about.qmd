@@ -46,11 +46,11 @@ In the part about evaluating a study (Section \@sec-evaluating to \@sec-reanalys
 
 To avoid having to replicate stuff that other people have written earlier and well, I will sometimes refer to or literally quote from similar sources. In particular, when needed I will refer to and quote from 
 
--   the [[Handbook for Reproduction and Replication Studies]{.underline}](https://forrt.org/replication_handbook/) (pdf here [[https://forrt.org/replication_handbook/Handbook-for-Reproduction-and-Replication-Studies.pdf]{.underline}](https://forrt.org/replication_handbook/Handbook-for-Reproduction-and-Replication-Studies.pdf)), which focuses on replication and reproduction (which is a part of evaluation). I will refer to it as HRRS.
+-   the [[Handbook for Reproduction and Replication Studies]{.underline}](https://forrt.org/replication_handbook/) (pdf [[here]{.underline}](https://forrt.org/replication_handbook/Handbook-for-Reproduction-and-Replication-Studies.pdf)), which focuses on replication and reproduction (which is a part of evaluation). I will refer to it as HRRS.
 
--   the [[Guide for Accelerating Computational Reproducibility in the Social Sciences \| Guide for Accelerating Computational Reproducibility in the Social Sciences]{.underline}](https://bitss.github.io/ACRE/) (pdf here [[https://bitss.github.io/ACRE/ACRE_book.pdf]{.underline}](https://bitss.github.io/ACRE/ACRE_book.pdf)), which focuses on reproduction (which is a part of evalaution). I will refer to it as ACRE.
+-   the [[Guide for Accelerating Computational Reproducibility in the Social Sciences]{.underline}](https://bitss.github.io/ACRE/) (pdf [[here]{.underline}](https://bitss.github.io/ACRE/ACRE_book.pdf)), which focuses on reproduction (which is a part of evaluating studies). I will refer to it as ACRE.
 
--   [[forensicmetascience.com]{.underline}](http://forensicmetascience.com) (pdf here [[https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1]{.underline}](https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1)), which is the currently best reference I know about checking the numerical conformity of a study of Section \@sec-checkingconformity (which is one of the steps in the evaluation process). I will refer to it as AITFM.
+-   [[An Introduction to Forensic Metascience]{.underline}](http://forensicmetascience.com) (pdf [[here]{.underline}](https://zenodo.org/records/14871843/files/Heathers%20J%20An%20Introduction%20to%20Forensic%20Metascience%20(2025).pdf?download=1)), which is the currently best reference I know about checking the numerical conformity of a study of Section \@sec-checkingconformity (which is one of the steps in the evaluation process). I will refer to it as AITFM.
 
 ## citation {#sec-citation}
 
