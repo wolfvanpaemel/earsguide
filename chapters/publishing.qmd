@@ -1,6 +1,6 @@
 # Publishing {#sec-publishing}
 
-\^ Here are some potential outlet options for your paper about your
+Here are some potential outlet options for your paper about your
 replication study: TODO: add links
 
 - the journal where the OS was published (but check the info on their
@@ -27,5 +27,5 @@ replication study: TODO: add links
 
 - etc
 
-#  
+  
 
