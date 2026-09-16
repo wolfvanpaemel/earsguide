@@ -79,4 +79,4 @@ and could be literally copied.
  on guidance for constructive communication.
 
 **More?** An overview of relevant literature on the effect of the
-involvement of OAs can be found in Section 6.4.1 of HRRS.
+involvement of OAs can be found in [[Section 6.4.1]{.underline}](https://forrt.org/replication-handbook/execution_replications.html#collaborating-and-consulting-with-the-original-authors) of HRRS.
