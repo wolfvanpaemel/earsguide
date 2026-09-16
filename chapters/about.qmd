@@ -30,7 +30,7 @@ So this guide is intended to be a living document. This means that
 
 Because I have a bad memory and I suspect my students do too, I ask them to write quite a few reports throughout the replication process. Most of these reports come with a template, which you may find here [[here]{.underline}](https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0), in case they would be useful to you. TODO update
 
-## who this guide for {#sec-who-this-guide-for}
+## who this guide is for {#sec-who-this-guide-for}
 
 This guide heavily focuses on quantitative research, solely reflecting my own bias, interest and experience.
 
