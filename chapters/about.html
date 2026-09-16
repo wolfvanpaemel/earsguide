@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -41,10 +44,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3be697899e59400f26505c32c01f3681.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-a406815f2a93f70f676bc0c2d884f42d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -274,7 +277,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-who-this-guide-for" id="toc-sec-who-this-guide-for" class="nav-link active" data-scroll-target="#sec-who-this-guide-for"><span class="header-section-number">1.1</span> who this guide for</a></li>
+  <li><a href="#sec-who-this-guide-for" id="toc-sec-who-this-guide-for" class="nav-link active" data-scroll-target="#sec-who-this-guide-for"><span class="header-section-number">1.1</span> who this guide is for</a></li>
   <li><a href="#sec-software" id="toc-sec-software" class="nav-link" data-scroll-target="#sec-software"><span class="header-section-number">1.2</span> software</a></li>
   <li><a href="#sec-similar-works" id="toc-sec-similar-works" class="nav-link" data-scroll-target="#sec-similar-works"><span class="header-section-number">1.3</span> similar works</a></li>
   <li><a href="#sec-acknowledgements" id="toc-sec-acknowledgements" class="nav-link" data-scroll-target="#sec-acknowledgements"><span class="header-section-number">1.4</span> acknowledgements</a></li>
@@ -319,7 +322,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- It's just a loosely organised collection of notes, and it does not adhere to academic style. For example, I have been deliberately loose on referencing. I will try to make up for that by extending the Further Reading part.-->
 <p>Because I have a bad memory and I suspect my students do too, I ask them to write quite a few reports throughout the replication process. Most of these reports come with a template, which you may find here <a href="https://docs.google.com/document/d/1V0m4x6pDVFaDSu5_AWa6SiNCqI3wc9V-_SiyqXuZC7s/edit?tab=t.0"><u>here</u></a>, in case they would be useful to you. TODO update</p>
 <section id="sec-who-this-guide-for" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="sec-who-this-guide-for"><span class="header-section-number">1.1</span> who this guide for</h2>
+<h2 data-number="1.1" class="anchored" data-anchor-id="sec-who-this-guide-for"><span class="header-section-number">1.1</span> who this guide is for</h2>
 <p>This guide heavily focuses on quantitative research, solely reflecting my own bias, interest and experience.</p>
 <p>It is written with an inexperienced audience in mind. It, for example, includes an elaborate section explaining where to look for info related to a paper. If you are a seasoned researcher but have never done a replication, this section is probably not that useful to you, but I found it was being appreciated by my inexperienced students.</p>
 <p>There is another sense in which this guide is written with an very experienced audience in mind, or at least an audience that is willing to find information elsewhere. These notes strictly focus on evaluation and replication research. As replication research is of course just a type of empirical research, a more complete description of how replication research works should, in principle, discuss how to design a study, how to collect empirical data, how to analyze the data, and so on. This guide does <em>not</em> do that, so if you are looking for that, this guide will not be (sufficient) for you. I only included stuff that is specific for doing replication research in particular, not for doing empirical research in general. Also, I assume familiarity with basic statistical concepts.</p>
