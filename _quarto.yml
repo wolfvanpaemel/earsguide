@@ -34,7 +34,7 @@ book:
         - chapters/sharing.qmd
     - part: "FURTHER READING"
       chapters:
-        - chapters/todo4.qmd
+        - chapters/furtherreading.qmd
 
 format:
   html:
