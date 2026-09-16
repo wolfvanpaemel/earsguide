@@ -1,5 +1,4 @@
-```
-# BOOKS ON REPLICATION, CONFORMITY AND REPRODUCTION
+# Books on replication, conformity and reproduction
 
 Röseler, L.*, Wallrich, L.*, Hartmann, H., Hüffmeier, J., Goltermann, J., Pennington, C. R., Boyce, V., Field, S. M., Pittelkow, M.-M., Silverstein, P., van Ravenzwaaij, D., Azevedo, F. (2025). Handbook for Reproduction and Replication Studies. Retrieved from [https://forrt.org/replication_handbook](https://forrt.org/replication_handbook), [https://doi.org/10.5281/zenodo.16990114](https://doi.org/10.5281/zenodo.16990114) Handbook for Reproduction and Replication Studies This is currently somewhat superficial and not always as hands-on-y as it could be, but it has a few interesting bits and might have more meat in the future.
 
@@ -9,7 +8,7 @@ Guide for Accelerating Computational Reproducibility in the Social Sciences | Gu
 Heathers, J. (2025) An Introduction to Forensic Metascience.
 [www.forensicmetascience.com](https://www.forensicmetascience.com) There is a large overlap with Section @sec-checkingconformity, but it has some different examples, and includes several first hand experiences and some noteworthy suggestions for future developments.
 
-# ON REPLICATION
+# On replication
 
 LeBel, E. P., McCarthy, R. J., Earp, B. D., Elson, M., & Vanpaemel, W. (2018). A unified framework to quantify the credibility of scientific findings. Advances in Methods and Practices in Psychological Science, 1, 389-402. [https://doi.org/10.1177/2515245918787489](https://doi.org/10.1177/2515245918787489) [https://ppw.kuleuven.be/okp/_pdf/LeBel2018AUFTQ.pdf](https://ppw.kuleuven.be/okp/_pdf/LeBel2018AUFTQ.pdf)
 
@@ -24,15 +23,15 @@ Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S., Dreber,
 
 Zwaan, R. A., Etz, A., Lucas, R. E., & Donnellan, M. B. (2018). Making replication mainstream. Behavioral and Brain Sciences, 41, e120 [https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/making-replication-mainstream/2E3D8805BF34927A76B963C7BBE36AC7](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/making-replication-mainstream/2E3D8805BF34927A76B963C7BBE36AC7)
 
-# ON REPRODUCTION
+# On reproduction
 
 Artner, R., Verliefde, T., Steegen, S., Gomes, S., Traets, F., Tuerlinckx, F., & Vanpaemel, W. (2021). The reproducibility of statistical results in psychological research: An investigation using unpublished raw data. Psychological Methods, 26, 527-546. [https://doi.org/10.1037/met0000365](https://doi.org/10.1037/met0000365) [https://ppw.kuleuven.be/okp/_pdf/Artner2021TROSR.pdf](https://ppw.kuleuven.be/okp/_pdf/Artner2021TROSR.pdf)
 
-# ON MULTIVERSE
+# On multiverse analysis
 
 Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016). Increasing transparency through a multiverse analysis. Perspectives on Psychological Science, 11, 702-712. [https://doi.org/10.1177/1745691616658637](https://doi.org/10.1177/1745691616658637) [https://ppw.kuleuven.be/okp/_pdf/Steegen2016ITTAM.pdf](https://ppw.kuleuven.be/okp/_pdf/Steegen2016ITTAM.pdf)
 
-# STUDIES USED IN THE EXAMPLES
+# Studies used in the examples
 
 Steegen, S., Dewitte, L., Tuerlinckx, F., & Vanpaemel, W. (2014). Measuring the crowd within again: A pre-registered replication study. Frontiers in Psychology, 5, 786, 1-8. [https://doi.org/10.3389/fpsyg.2014.00786](https://doi.org/10.3389/fpsyg.2014.00786) replicating
 
@@ -58,11 +57,12 @@ Durante, K. M., Rae, A., & Griskevicius, V. (2013). The fluctuating female vote:
 
 Navarro, D. (2013). Learning statistics with R. [https://learningstatisticswithr.com/](https://learningstatisticswithr.com/) was used for some examples using fictional data.
 
-# STATISTICAL FALLACIES
+# Statistical fallacies
 
-# TOOLS AND CHECKLISTS FOR STUDY EVALUATION
+# Tools and checklists for study evaluation
 
-# TOOLS AND TECHNIQUES FOR CHECKING NUMERICAL CONFORMITY
+# Tools and techniques for checking numerical conformity
 
-# OTHER
-```
+# Other
+
+
