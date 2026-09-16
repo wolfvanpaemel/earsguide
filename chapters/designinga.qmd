@@ -1,6 +1,6 @@
 # Desiging your analysis {#sec-designinganalysis}
 
-\^ Even if the OAs were transparent or kind enough to share their
+Even if the OAs were transparent or kind enough to share their
 detailed processing analysis steps or code, don't just assume the best
 course of action is to use just this exact processing and analytical
 approach and shared code. It might still makes sense to do something
@@ -17,8 +17,8 @@ steps or code as used by the OAs.
   done correctly?" are "hell, yeah", now is the time to ask, can
   so-and-so be done better (see also @sec-alternative)? Are
   there analyses available for the same test that are more appropriate
-  and have e.g. better statistical properties? xxx current state of the
-  art xxx TODO add example
+  and have e.g. better statistical properties or reflect the current state of the
+  art? xxx TODO add example
 
 - So, in light of the fact that people do stuff that is weird and wrong,
   and that the field has matured (or you are just better educated than
@@ -29,26 +29,26 @@ steps or code as used by the OAs.
   is reason enough already why you can not just blindly redo the
   analyses from the OAs.)
 
-\^ If your analysis will be different from the original ones and the
+If your analysis will be different from the original ones and the
 original raw data are available, it make sense to do your analysis and
-their old data as well to facilitate comparison (see Section XXX)
+their old data as well to facilitate comparison (see Section XXX).
 
-\^ Similarly, it might be a good idea to perform the analyses as done by
+Similarly, it might be a good idea to perform the analyses as done by
 the OAs on your data, next to your analysis and your data, explaining
-the differences and why they are justified
+the differences and why they are justified.
 
-\^ You still have the document with a list of the **known differences**
+You still have the document with a list of the **known differences**
 between your study and the original study I suggested you'd keep? Good!
 Make sure to update it when thinking about your analyses.
 
-\^ A big question is whether your tests should be one tailed or two
+A big question is whether your tests should be one tailed or two
 tailed. If you believe the OAs have provided some credible evidence for
 the effect you are investigating, one-sided tests would make sense, I
 guess. But I don't have any solid advice on this one. Maybe I should do
 some reading up about it. In the absence of that, you should do that
 yourself.
 
-\^ Remember all the nagging questions I raised in Section
+Remember all the nagging questions I raised in Section
 \@sec-ambiguous talking about how doing the same is often ambiguous and
 can have at least two meanings, the same choice vs the same strategy? To
 be clear, I don't have the answers to these questions raised. But these
@@ -58,7 +58,7 @@ implement the idea of *the same* to some extent (i.e., the choice-same
 and the strategy-same). So often, it might be interesting to do the main
 analyses several times.
 
-\+ Consider for example this scenario: the OAs correlate two measures,
+Consider for example this scenario: the OAs correlate two measures,
 each of which are a subscale. The scores on each subscale are determined
 using a factor analysis, in which the items load on different factors
 than the authors of the scale proposed/intended. This means there are at
@@ -78,11 +78,11 @@ approach 2 for subscale 1 and approach 2 for subscale 2; approach 3 for
 subscale 3 and approach 1 for subscale 2). It's up to you how far you
 want to go (between 1 and 9 analyses).
 
-\^ If you take a different analytical strategy than the OAs, it often
+If you take a different analytical strategy than the OAs, it often
 makes sense to do the analyses of the OAs as well, as this facilitates
 comparability.
 
-\^ A big question to consider is how you will **evaluate replication
+A big question to consider is how you will **evaluate replication
 success**. When it is money time, you will need to answer the question:
 was the replication attempt a success or a failure? Broadly speaking,
 you want to compare your result to the original results and assess
@@ -90,7 +90,7 @@ whether your result either supports/confirms/converges/is consistent
 with xxx or contradicts/diverges from the original result (or is
 inconclusive).
 
-\^ Well, like with everything, it depends how you measure and define
+Well, like with everything, it depends how you measure and define
 success.
 
 Here is an you could do that
@@ -102,7 +102,7 @@ Here is an you could do that
 - effect size based: Is your effect size inside the confidence interval
   of the effect size in the OS?
 
-\^ Most of the above metrics concern a single
+Most of the above metrics concern a single
 hypothesis/effect/test/research question. The study you replicated
 probably contained many, such as an interaction effect followed up by a
 simple effect. That means that your overall conclusion about the
