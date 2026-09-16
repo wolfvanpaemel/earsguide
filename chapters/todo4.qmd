@@ -1,3 +1,68 @@
-# Work in progress
+```
+# BOOKS ON REPLICATION, CONFORMITY AND REPRODUCTION
 
-work in progress
+Röseler, L.*, Wallrich, L.*, Hartmann, H., Hüffmeier, J., Goltermann, J., Pennington, C. R., Boyce, V., Field, S. M., Pittelkow, M.-M., Silverstein, P., van Ravenzwaaij, D., Azevedo, F. (2025). Handbook for Reproduction and Replication Studies. Retrieved from [https://forrt.org/replication_handbook](https://forrt.org/replication_handbook), [https://doi.org/10.5281/zenodo.16990114](https://doi.org/10.5281/zenodo.16990114) Handbook for Reproduction and Replication Studies This is currently somewhat superficial and not always as hands-on-y as it could be, but it has a few interesting bits and might have more meat in the future.
+
+Berkeley Initiative for Transparency in the Social Sciences. (2022). Guide for Accelerating Computational Reproducibility in the Social Sciences
+Guide for Accelerating Computational Reproducibility in the Social Sciences | Guide for Accelerating Computational Reproducibility in the Social Sciences
+
+Heathers, J. (2025) An Introduction to Forensic Metascience.
+[www.forensicmetascience.com](https://www.forensicmetascience.com) There is a large overlap with Section @sec-checkingconformity, but it has some different examples, and includes several first hand experiences and some noteworthy suggestions for future developments.
+
+# ON REPLICATION
+
+LeBel, E. P., McCarthy, R. J., Earp, B. D., Elson, M., & Vanpaemel, W. (2018). A unified framework to quantify the credibility of scientific findings. Advances in Methods and Practices in Psychological Science, 1, 389-402. [https://doi.org/10.1177/2515245918787489](https://doi.org/10.1177/2515245918787489) [https://ppw.kuleuven.be/okp/_pdf/LeBel2018AUFTQ.pdf](https://ppw.kuleuven.be/okp/_pdf/LeBel2018AUFTQ.pdf)
+
+Block, J., & Kuckertz, A. (2018). Seven principles of effective replication studies:
+Strengthening the evidence base of management research. Management Review
+Quarterly, 68(4), 355–359. [https://doi.org/10.1007/s11301-018-0149-3](https://doi.org/10.1007/s11301-018-0149-3) xxx
+
+Peels, R. (2019). Replicability and replication in the humanities. Research Integrity and Peer Review 4, 2 (2019). [https://doi.org/10.1186/s41073-018-0060-4](https://doi.org/10.1186/s41073-018-0060-4)
+
+Nosek, B. A., Hardwicke, T. E., Moshontz, H., Allard, A., Corker, K. S., Dreber, A., ... & Vazire, S. (2022). Replicability, robustness, and reproducibility in psychological science. Annual review of psychology, 73(1), 719-748.
+[https://www.annualreviews.org/doi/full/10.1146/annurev-psych-020821-114157](https://www.annualreviews.org/doi/full/10.1146/annurev-psych-020821-114157)
+
+Zwaan, R. A., Etz, A., Lucas, R. E., & Donnellan, M. B. (2018). Making replication mainstream. Behavioral and Brain Sciences, 41, e120 [https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/making-replication-mainstream/2E3D8805BF34927A76B963C7BBE36AC7](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/making-replication-mainstream/2E3D8805BF34927A76B963C7BBE36AC7)
+
+# ON REPRODUCTION
+
+Artner, R., Verliefde, T., Steegen, S., Gomes, S., Traets, F., Tuerlinckx, F., & Vanpaemel, W. (2021). The reproducibility of statistical results in psychological research: An investigation using unpublished raw data. Psychological Methods, 26, 527-546. [https://doi.org/10.1037/met0000365](https://doi.org/10.1037/met0000365) [https://ppw.kuleuven.be/okp/_pdf/Artner2021TROSR.pdf](https://ppw.kuleuven.be/okp/_pdf/Artner2021TROSR.pdf)
+
+# ON MULTIVERSE
+
+Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016). Increasing transparency through a multiverse analysis. Perspectives on Psychological Science, 11, 702-712. [https://doi.org/10.1177/1745691616658637](https://doi.org/10.1177/1745691616658637) [https://ppw.kuleuven.be/okp/_pdf/Steegen2016ITTAM.pdf](https://ppw.kuleuven.be/okp/_pdf/Steegen2016ITTAM.pdf)
+
+# STUDIES USED IN THE EXAMPLES
+
+Steegen, S., Dewitte, L., Tuerlinckx, F., & Vanpaemel, W. (2014). Measuring the crowd within again: A pre-registered replication study. Frontiers in Psychology, 5, 786, 1-8. [https://doi.org/10.3389/fpsyg.2014.00786](https://doi.org/10.3389/fpsyg.2014.00786) replicating
+
+Vul, E., and Pashler, H. (2008). Measuring the crowd within: probabilistic representations within individuals. Psychological Science 19, 645–647. doi: [https://doi.org/10.1111/j.14679280.2008.02136.x](https://doi.org/10.1111/j.14679280.2008.02136.x)
+
+Rutten, I., Voorspoels, W., Steegen, S., Kuppens, P., & Vanpaemel, W. (2018). Depressive symptoms and category learning: A preregistered conceptual replication study. Journal of Cognition, 1, 34, 1-7. [https://doi.org/10.5334/joc.35](https://doi.org/10.5334/joc.35) replicating
+
+Smith, J. D., Tracy, J. I., & Murray, J. M. (1993). Depression and category learning. Journal of ExperimentalPsychology: General, 122(3), 331–346. DOI: [https://doi.org/10.1037/0096-3445.122.3.331](https://doi.org/10.1037/0096-3445.122.3.331)
+
+Voorspoels, W., Bartlema, A., & Vanpaemel, W. (2014). Can race really be erased? A pre-registered replication study. Frontiers in Psychology, 5, 1035, 1-7. [https://doi.org/10.3389/fpsyg.2014.01035](https://doi.org/10.3389/fpsyg.2014.01035) replicating
+
+Kurzban, R., Tooby, J., and Cosmides, L. (2001). Can race be erased? Coalitional
+computation and social categorization. Proc. Natl. Acad. Sci. U.S.A. 98,
+15387–15392. [https://doi.org/10.1073/pnas.251541498](https://doi.org/10.1073/pnas.251541498)
+
+Vanpaemel, W., Vermorgen, M., Deriemaecker, L., & Storms, G. (2015). Are we wasting a good crisis? The availability of psychological research data after the storm. Collabra, 1, 1-5. [https://doi.org/10.1525/collabra.13](https://doi.org/10.1525/collabra.13) following up on
+
+Wicherts, JM, Borsboom, D Kats, J & Molenaar, D. The poor availability of psychological research data for reanalysis. American Psychologist. 2006; 61: 726–728. [http://dx.doi.org/10.1037/0003-066X.61.7.726](http://dx.doi.org/10.1037/0003-066X.61.7.726)
+
+Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016). Increasing transparency through a multiverse analysis. Perspectives on Psychological Science, 11, 702-712. [https://doi.org/10.1177/1745691616658637](https://doi.org/10.1177/1745691616658637)  multiversing
+
+Durante, K. M., Rae, A., & Griskevicius, V. (2013). The fluctuating female vote: Politics, religion, and the ovulatory cycle. Psychological Science, 24, 1007–1016. [https://doi.org/10.1177/0956797612466416](https://doi.org/10.1177/0956797612466416)
+
+Navarro, D. (2013). Learning statistics with R. [https://learningstatisticswithr.com/](https://learningstatisticswithr.com/) was used for some examples using fictional data.
+
+# STATISTICAL FALLACIES
+
+# TOOLS AND CHECKLISTS FOR STUDY EVALUATION
+
+# TOOLS AND TECHNIQUES FOR CHECKING NUMERICAL CONFORMITY
+
+# OTHER
+```
