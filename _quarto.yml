@@ -29,7 +29,9 @@ book:
         - chapters/interpreting.qmd
     - part: "WRITNG UP AND WRAPPING UP"
       chapters:
-        - chapters/todo3.qmd
+        - chapters/writing.qmd
+        - chapters/publishing.qmd
+        - chapters/sharing.qmd
     - part: "FURTHER READING"
       chapters:
         - chapters/todo4.qmd
