@@ -69,7 +69,7 @@
     "href": "chapters/areplication.html",
     "title": "2  A replication?",
     "section": "",
-    "text": "Let’s start by discussing some terminology\n\nA replication of a result involves collecting new data in the same design and running the same analyses on the newly collected data (i.e. different data) to test the same hypothesis (or more broadly: to answer the same research question) as someone else did already. Typically, this is done by different researchers than the ones that came up with the result in the first place. If researchers replicate their own work, this is called a self-replication.\nA replication is related to but different from a reproduction of someone’s work (which we will discuss in more detail in Section @sec-reproducibility). This involves someone else running the same analyses on the already collected data (i.e., the same data; with code either self-written or provided by the original researchers, or something in between).\n\nNot that this is the terminology I will stick to in these notes, but keep in mind that conventions differ across fields, disciplines, time, researchers and vibes. For example, when in 2105 200 researchers (including myself) replicated 100 studies, they collectively thought they were Estimating the reproducibility of psychological science, while in fact they were checking replicability.\nAnother terminological confusion relates to the sentence “Study X has been replicated”. Typically, it just means that someone has tried to do the study again. It doesn’t say anything about the results that someone has found. When that someone found the same results (by whatever criterion; see ?sec-designinganalysis), you would read “Study X was successfully replicated”, and if the results were different, you would read “Study X failed to replicate”. Somehow, i would interpret “Study X has been reproduced” as “Study X has been successfully reproduced” but it might be just me.\nSo, basically, when you do a replication, you will be doing an earlier study again. Let's introduce some more terminology. The study you will do again aka replicate will be referred to as the original study (OS), and its authors as, wait for it, the original authors (OAs). I have tried to suppress my gangsta desire to use O.G. study and O.G. authors, but I can't promise I've always succeeded.",
+    "text": "Let’s start by discussing some terminology\n\nA replication of a result involves collecting new data in the same design and running the same analyses on the newly collected data (i.e. different data) to test the same hypothesis (or more broadly: to answer the same research question) as someone else did already. Typically, this is done by different researchers than the ones that came up with the result in the first place. If researchers replicate their own work, this is called a self-replication.\nA replication is related to but different from a reproduction of someone’s work (which we will discuss in more detail in Section @sec-reproducibility). This involves someone else running the same analyses on the already collected data (i.e., the same data; with code either self-written or provided by the original researchers, or something in between).\n\nNot that this is the terminology I will stick to in these notes, but keep in mind that conventions differ across fields, disciplines, time, researchers and vibes. For example, when in 2105 200 researchers (including myself) replicated 100 studies, they collectively thought they were Estimating the reproducibility of psychological science, while in fact they were checking replicability.\nAnother terminological confusion relates to the sentence “Study X has been replicated”. Typically, it just means that someone has tried to do the study again. It doesn’t say anything about the results that someone has found. When that someone found the same results (by whatever criterion; see Chapter 10), you would read “Study X was successfully replicated”, and if the results were different, you would read “Study X failed to replicate”. Somehow, i would interpret “Study X has been reproduced” as “Study X has been successfully reproduced” but it might be just me.\nSo, basically, when you do a replication, you will be doing an earlier study again. Let's introduce some more terminology. The study you will do again aka replicate will be referred to as the original study (OS), and its authors as, wait for it, the original authors (OAs). I have tried to suppress my gangsta desire to use O.G. study and O.G. authors, but I can't promise I've always succeeded.",
     "crumbs": [
       "GETTING STARTED",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>A replication?</span>"
@@ -241,36 +241,80 @@
     ]
   },
   {
-    "objectID": "chapters/todo2.html",
-    "href": "chapters/todo2.html",
-    "title": "9  Work in progress",
+    "objectID": "chapters/designings.html",
+    "href": "chapters/designings.html",
+    "title": "9  Designing your study",
     "section": "",
-    "text": "work in progress",
+    "text": "^ Even if the OAs were transparent and kind enough to share their materials, don’t just assume the best course of action is to use just this shared material. It might still make sense to do something different than the OAs and go beyond the exact same materials as used by the OAs.\n\nThey might have done something weird or wrong. See ?sec-undesired, Section 3.2 and ?sec-checkingquality for examples.\nYou currently don’t have the means to do exactly the same (see Section 3.1).\n\n\n\nAnd even if all the answers to the questions asking “was so-and-so done correctly?” are “yeah, sure”, now is the time to ask, can so-and-so be done better? Are there measures available for the same construct that are more appropriate and have e.g. better psychometric qualities? TODO add example\nSo, in light of the fact that people do stuff that is weird and wrong, and that science progresses, you should consider using alternative or improved materials compared to the OAs (constructive replication).\n(Of course, doing an extended study with e.g. an additional covariate is reason enough already why you can not just blindly redo the analyses from the OAs.)\n\n^ You probably want to keep a document with a list of the known differences between your study and the original study (I promise you will forget about those if you don’t keep track!), where “known” signals the fact that you knew about this in the design face, before your results came in. Also, keep in mind that whenever you were not sure what the OAs exactly did (see @sec-impossible and Section @sec-reproducibility), whatever you did is a potential known difference, and you should list it as such.\n^ When designing your study, remember that sometimes the OAs were given “free” bonus data without them asking, so you could consider collecting that info. For example, if they collected data from students at American universities, they knew the country of residence and the occupation of all their participants without having to ask for it. You, on the other hand, might be using prolific, so your participants can be from anywhere over the world, so asking their country of residence and occupation might be interesting, despite the OAs not having done so, or at least not explicitly!\n^ There is a sense in which doing a replication is just doing things the same (but by Section @sec-areplication, I hope I got you thinkin’ non-sense). Even if you are an “I want to do things exactly the same” hard core type, there is one thing where you will have to give in: there is no good reason to use the same sample size as the OA did. You might want a higher power or more precision than in the OS. Determining your sample size is an important step about which I don’t have anything interesting to say. Luckily, HRRS has an interesting section about this (6.2), which I am not going to repeat, so I will just keep quiet for a while.\n^ xxxx Also, if you focus on one specific result as your main target of replication, justify why you choose this xxx moet dat ook niet bij desging ergens xxx what is the main claim? needed for power analysis and for some metrics of replication success\n\n10",
     "crumbs": [
       "REPLICATING",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Work in progress</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Designing your study</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/designinga.html",
+    "href": "chapters/designinga.html",
+    "title": "10  Desiging your analysis",
+    "section": "",
+    "text": "^ Even if the OAs were transparent or kind enough to share their detailed processing analysis steps or code, don’t just assume the best course of action is to use just this exact processing and analytical approach and shared code. It might still makes sense to do something different than the OAs and go beyond the exact same processing analysis steps or code as used by the OAs.\n\nYour quality check from Section ?sec-checkingquality, your visual check from Section ?sec-checkingvisuals, your numerical conformity check from Section ?sec-checkingconformity, and your re-analysis from Section ?sec-reanalyzing might have revealed the need to do things differently, because the OAs did something weird or wrong.\nAnd even if all the answers to the questions asking “was so-and-so done correctly?” are “hell, yeah”, now is the time to ask, can so-and-so be done better (see also ?sec-alternative)? Are there analyses available for the same test that are more appropriate and have e.g. better statistical properties? xxx current state of the art xxx TODO add example\nSo, in light of the fact that people do stuff that is weird and wrong, and that the field has matured (or you are just better educated than the OAs are), you should consider doing an alternative or improved analysis compared to the OAs (constructive replication).\n(Of course, doing an extended study with e.g. an additional covariate is reason enough already why you can not just blindly redo the analyses from the OAs.)\n\n^ If your analysis will be different from the original ones and the original raw data are available, it make sense to do your analysis and their old data as well to facilitate comparison (see Section XXX)\n^ Similarly, it might be a good idea to perform the analyses as done by the OAs on your data, next to your analysis and your data, explaining the differences and why they are justified\n^ You still have the document with a list of the known differences between your study and the original study I suggested you’d keep? Good! Make sure to update it when thinking about your analyses.\n^ A big question is whether your tests should be one tailed or two tailed. If you believe the OAs have provided some credible evidence for the effect you are investigating, one-sided tests would make sense, I guess. But I don’t have any solid advice on this one. Maybe I should do some reading up about it. In the absence of that, you should do that yourself.\n^ Remember all the nagging questions I raised in Section @sec-ambiguous talking about how doing the same is often ambiguous and can have at least two meanings, the same choice vs the same strategy? To be clear, I don’t have the answers to these questions raised. But these are things that you will come across and will need to make decisions about. Sometimes the answer will be: do several things, all of which implement the idea of the same to some extent (i.e., the choice-same and the strategy-same). So often, it might be interesting to do the main analyses several times.\n+ Consider for example this scenario: the OAs correlate two measures, each of which are a subscale. The scores on each subscale are determined using a factor analysis, in which the items load on different factors than the authors of the scale proposed/intended. This means there are at least three plausible ways to compute the subscale for your data .\n\nuse the scale structure as proposed by the scale developers\nuse the scale structure as revealed by the OAs factor analysis\nuse the scale structure as revealed by doing a factor analysis on your data\n\nYou can do these 3 options for both subscales. You could then look at 9 correlations, combining all 3 approaches. Or you could look at 3 correlations (approach 1 for subscale 1 and approach 1 for subscale 2; approach 2 for subscale 1 and approach 2 for subscale 2; approach 3 for subscale 3 and approach 1 for subscale 2). It’s up to you how far you want to go (between 1 and 9 analyses).\n^ If you take a different analytical strategy than the OAs, it often makes sense to do the analyses of the OAs as well, as this facilitates comparability.\n^ A big question to consider is how you will evaluate replication success. When it is money time, you will need to answer the question: was the replication attempt a success or a failure? Broadly speaking, you want to compare your result to the original results and assess whether your result either supports/confirms/converges/is consistent with xxx or contradicts/diverges from the original result (or is inconclusive).\n^ Well, like with everything, it depends how you measure and define success.\nHere is an you could do that overwhelmingly large bunch of ways you could do that. Among all of these variants, these two stand out:\n\np-value based: Do you find a significant result when the OAs did, in the same direction?\neffect size based: Is your effect size inside the confidence interval of the effect size in the OS?\n\n^ Most of the above metrics concern a single hypothesis/effect/test/research question. The study you replicated probably contained many, such as an interaction effect followed up by a simple effect. That means that your overall conclusion about the replication study can (or most likely, often will be) mixed, in the sense that some results converged but others did not.",
+    "crumbs": [
+      "REPLICATING",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Desiging your analysis</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/prereg.html",
+    "href": "chapters/prereg.html",
+    "title": "11  Preregistering your study",
+    "section": "",
+    "text": "^ Again, I don’t have much to say here (yet). Pre-registration is hard, but there is not much that is specific to pre registering a replication that I can think of.\n^ The only real difference from a preregistration of a non-replication study is that it is advised to include a section with known differences with the OS, including a justification of why these differences are reasonable or needed, and a discussion on whether you think these will impact the result compared to the OS.\n^ Ideally, the pre-analysis plan includes a definition of what constitutes replication success vs failure, but that’s a tough nut (a bit more in @sec-designinganalysis) for some ideas.\n^ Optionally, you can contact the OAs and ask them to read through the preregistration. This is especially when there were a lot of changes to their study.",
+    "crumbs": [
+      "REPLICATING",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Preregistering your study</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/collecting.html",
+    "href": "chapters/collecting.html",
+    "title": "12  Collecting your data",
+    "section": "",
+    "text": "There is nothing I can think of really where collecting data for a replication study is any different from collecting data for a non-replication study.",
+    "crumbs": [
+      "REPLICATING",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Collecting your data</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/interpreting.html",
+    "href": "chapters/interpreting.html",
+    "title": "13  Interpreting your result",
+    "section": "",
+    "text": "^ What if your replication failed, by whatever the metric you prefer? If you don’t find the same results as the original authors, what now? Think of what might have caused or contributed to this. There are many possible explanations or reasons for why your results may differ from theirs.\n\nThe original effect was a false positive\nYour result is a false negative\nThe different result might be caused by the inevitable differences between the OS and your study. When discussing this, it makes sens to make a distinction between differences that are known before data collection and analysis (i.e., by design) or unknown (e.g., differences in gender distribution; differences in attrition rate) differences with the OS.\nIf you come up with a hidden moderator to explain the different result, try to turn it into a testable hypothesis that you then recommend as a suggestion for future research. If possible, discuss how the known and surprising differences with the original study might have influenced the results. How important are the (inevitable) differences between your study and the original one? And is it possible, feasible, and interesting to test this?",
+    "crumbs": [
+      "REPLICATING",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Interpreting your result</span>"
     ]
   },
   {
     "objectID": "chapters/todo3.html",
     "href": "chapters/todo3.html",
-    "title": "10  Work in progress",
+    "title": "14  Work in progress",
     "section": "",
     "text": "work in progress",
     "crumbs": [
       "WRITNG UP AND WRAPPING UP",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Work in progress</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Work in progress</span>"
     ]
   },
   {
     "objectID": "chapters/todo4.html",
     "href": "chapters/todo4.html",
-    "title": "11  Work in progress",
+    "title": "15  Work in progress",
     "section": "",
     "text": "work in progress",
     "crumbs": [
       "FURTHER READING",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Work in progress</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Work in progress</span>"
     ]
   }
 ]
