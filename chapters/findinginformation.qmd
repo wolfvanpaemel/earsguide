@@ -60,6 +60,8 @@ additional analyses, etc
   paper, with a link to a [[osf.io]{.underline}](http://osf.io) project
   or [[aspredicted.org]{.underline}](http://aspredicted.org) project.
 
+- sometimes, there are several versions of a paper, and other versions might contain more or different information. For example, the paper could be part of a PhD dissertation, and you might be able to dig up that dissertation. Or the OAs might have published earlier version of the paper as a preprint (for example on [[psyarxiv]{.underline}](https://osf.io/preprints/psyarxiv/)), and that preprint might have more info than the final result. 
+
 In some cases, the same data set is used in several papers by the
 same authors. You would think that the description of the study would be
 the same in both papers, but you should stop thinking really. You might
